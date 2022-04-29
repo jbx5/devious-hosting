@@ -10,7 +10,7 @@
         "-XX:+UseParNewGC",
         "-Djna.nosys=true"
     ],
-    "buildCommit": "cbc73f69cf9b40c512929e2d6521bc3b4583d1db",
+    "buildCommit": "cc0e14c7c49137f325e1eac1432c0882f6f64937",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -45,21 +45,21 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/runescape-api-4.25.1.jar",
-            "size": 122011,
+            "size": 122034,
             "name": "runescape-api-4.25.1.jar",
-            "hash": "30289676ad782d890e777b3ca681b9a4c820adee9094f3b24313a481518db2cc"
+            "hash": "1f77c31325296e9d5dfd522fc1205999a9aa692748220653ebecade3de6fbaea"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/runelite-api-4.25.1.jar",
-            "size": 1347648,
+            "size": 1347669,
             "name": "runelite-api-4.25.1.jar",
-            "hash": "770a96d691e3bd645ce17af8d537ab3bc7057632a0c04c49d75f333df24c349c"
+            "hash": "77617702640d7d84c051144c1403250cf327a598bd6a2401a578670c9e13fefb"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/http-api-4.25.1.jar",
-            "size": 88796,
+            "size": 88795,
             "name": "http-api-4.25.1.jar",
-            "hash": "96ef8898679f9a53d708de6d31e8e333f45474e6e739a9872f23b0e0ba15f7fa"
+            "hash": "84078bd8bca315c5f36f8df563408c2232c72b824e9b3e90ed27796860efa8ba"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/runelite-jshell-4.25.1.jar",
@@ -429,9 +429,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/runelite-client-4.25.1.jar",
-            "size": 10974576,
+            "size": 10974952,
             "name": "runelite-client-4.25.1.jar",
-            "hash": "56b685145bdab9e181e036ec3c52eeb748e5479705b1057ecfb405912d4bed18"
+            "hash": "96f4cede6d31dcb55b8778d0d05539d94ffe3e9a8f4fb2ba730efaf4ee0108b9"
         }
     ]
 }
