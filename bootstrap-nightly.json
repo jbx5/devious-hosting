@@ -14,7 +14,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "3cdb585e2150554dab9e68570019eced7db93b5b",
+    "buildCommit": "ba268ce912215c7cc0ae53ffb2f5bd419256af58",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -28,7 +28,7 @@
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
-        "http-api-4.25.2-SNAPSHOT.jar": "af1feba97331858a44e4796604707e3c8f7e0621960fcc9f08e4d9c6003af193",
+        "http-api-4.25.2-SNAPSHOT.jar": "7a506a7a6e01055bb5232b845587bb35ddfd3dfc53bb8f36997d20e1ee8dbeac",
         "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
         "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
@@ -164,9 +164,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/http-api-4.25.2-SNAPSHOT.jar",
-            "size": 88795,
+            "size": 88796,
             "name": "http-api-4.25.2-SNAPSHOT.jar",
-            "hash": "af1feba97331858a44e4796604707e3c8f7e0621960fcc9f08e4d9c6003af193"
+            "hash": "7a506a7a6e01055bb5232b845587bb35ddfd3dfc53bb8f36997d20e1ee8dbeac"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-jshell-4.25.2-SNAPSHOT.jar",
