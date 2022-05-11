@@ -3,10 +3,10 @@
   <groupId>com.openosrs.rs</groupId>
   <artifactId>runescape-api</artifactId>
   <versioning>
-    <latest>4.25.2-SNAPSHOT</latest>
+    <latest>4.26.1-SNAPSHOT</latest>
     <versions>
-      <version>4.25.2-SNAPSHOT</version>
+      <version>4.26.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220511100719</lastUpdated>
+    <lastUpdated>20220511170454</lastUpdated>
   </versioning>
 </metadata>
