@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "d2d39769cecd5707f6ddc4df9712a4d6c81da0b9",
+    "buildCommit": "22487ed602e74a6a9f058c95e21a1b488c27ad12",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -27,7 +27,7 @@
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
-        "runelite-client-4.27.0-SNAPSHOT.jar": "6794c005fc42e73b840eb82a3b8fc07b14429043b92fca5d0681a88f93f3dd3b",
+        "runelite-client-4.27.0-SNAPSHOT.jar": "7003f62896eb865467ebb1adcbab02813f570ee48ad1dde8ff5d36ec2faee468",
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
         "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
@@ -39,7 +39,7 @@
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "kotlin-stdlib-1.5.31.jar": "4800ceacb2ec0bb9959a087154b8e35318ead1ea4eba32d4bb1b9734222a7e68",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
-        "runelite-api-4.27.0-SNAPSHOT.jar": "237dbfa4e115fb16d60dfc297a9c08fd441b3aad2bb854dab33157ecbe242f3a",
+        "runelite-api-4.27.0-SNAPSHOT.jar": "132c78d29c2c5c563283a5209024a1c9530ac31e0a844de31a50cdd2c44f36cf",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
         "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
@@ -83,7 +83,7 @@
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "jogl-rl-2.4.0-rc-20220318-natives-linux-amd64.jar": "346dee2189c431fe99980c478e511f9465f26bd8aba4db4288010532fde116af",
-        "http-api-4.27.0-SNAPSHOT.jar": "3d2980271134bc305717aa82fda1908613b510c711a22bc72e1a53a4572be700",
+        "http-api-4.27.0-SNAPSHOT.jar": "901e36371c85ab6f13550ac71c8ec68bec2d83bb4caf49cdd6d6465d7a1f0d64",
         "jgroups-5.2.2.Final.jar": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e",
         "rsyntaxtextarea-3.1.2.jar": "5333ffa1166c54853d784943c5c44326a5e27e1613de2c07819ae12afe207097",
         "gluegen-rt-2.4.0-rc-20220318.jar": "ba22a3338a3dea346801f5ae4a0341fc13f59bf4b02d54d575a6f0399a30e8b2",
@@ -167,15 +167,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-api-4.27.0-SNAPSHOT.jar",
-            "size": 1359888,
+            "size": 1357946,
             "name": "runelite-api-4.27.0-SNAPSHOT.jar",
-            "hash": "237dbfa4e115fb16d60dfc297a9c08fd441b3aad2bb854dab33157ecbe242f3a"
+            "hash": "132c78d29c2c5c563283a5209024a1c9530ac31e0a844de31a50cdd2c44f36cf"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/http-api-4.27.0-SNAPSHOT.jar",
             "size": 88795,
             "name": "http-api-4.27.0-SNAPSHOT.jar",
-            "hash": "3d2980271134bc305717aa82fda1908613b510c711a22bc72e1a53a4572be700"
+            "hash": "901e36371c85ab6f13550ac71c8ec68bec2d83bb4caf49cdd6d6465d7a1f0d64"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-jshell-4.27.0-SNAPSHOT.jar",
@@ -601,9 +601,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-client-4.27.0-SNAPSHOT.jar",
-            "size": 11327682,
+            "size": 11327945,
             "name": "runelite-client-4.27.0-SNAPSHOT.jar",
-            "hash": "6794c005fc42e73b840eb82a3b8fc07b14429043b92fca5d0681a88f93f3dd3b"
+            "hash": "7003f62896eb865467ebb1adcbab02813f570ee48ad1dde8ff5d36ec2faee468"
         }
     ]
 }
