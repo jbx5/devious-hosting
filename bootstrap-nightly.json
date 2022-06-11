@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "0272a3d4f6622d4b845eaeef7a406b4b1afc3872",
+    "buildCommit": "8bb8951cafdfe8aac7d50b780c889a5c6ce8ad2b",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -58,7 +58,7 @@
         "jogl-rl-2.4.0-rc-20220318-natives-windows-i586.jar": "75029af713b9df5ecd47a818ef32eb0909a95bb0dde7514cd6dc73e82900ed13",
         "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
         "kotlin-stdlib-common-1.5.31.jar": "dfa2a18e26b028388ee1968d199bf6f166f737ab7049c25a5e2da614404e22ad",
-        "runelite-client-4.28.0-SNAPSHOT.jar": "92b151a644de91a1168e72c75820bb58d1b6a76a4777700050f32935656a1386",
+        "runelite-client-4.28.0-SNAPSHOT.jar": "b6fd5160d0410b8c42753c711c5c0e7ac5ec94ada208cde81b335db0c3fb8981",
         "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
         "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
         "substance-8.0.02.jar": "0467d25f408428824d5c9c09ec60ee1f0bc341d9bf48971a77fd14939a826c83",
@@ -80,7 +80,7 @@
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "jogl-rl-2.4.0-rc-20220318-natives-macosx-universal.jar": "06da0e7e3c519b44c6ce510ff31ef5ade04a5f97f20461b2991dc55e373553c0",
         "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
-        "http-api-4.28.0-SNAPSHOT.jar": "fbd6b6b9a58b49a9f542794ab5e02479365a0454c5e780ec9253788434e54802",
+        "http-api-4.28.0-SNAPSHOT.jar": "0e7ba2f62cc5da4a29b5db86e2156ef76a984add96a0c4586dc9c16d8d49aaf3",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "jogl-rl-2.4.0-rc-20220318-natives-linux-amd64.jar": "346dee2189c431fe99980c478e511f9465f26bd8aba4db4288010532fde116af",
@@ -175,7 +175,7 @@
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/http-api-4.28.0-SNAPSHOT.jar",
             "size": 88795,
             "name": "http-api-4.28.0-SNAPSHOT.jar",
-            "hash": "fbd6b6b9a58b49a9f542794ab5e02479365a0454c5e780ec9253788434e54802"
+            "hash": "0e7ba2f62cc5da4a29b5db86e2156ef76a984add96a0c4586dc9c16d8d49aaf3"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-jshell-4.28.0-SNAPSHOT.jar",
@@ -601,9 +601,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-client-4.28.0-SNAPSHOT.jar",
-            "size": 11591589,
+            "size": 11592066,
             "name": "runelite-client-4.28.0-SNAPSHOT.jar",
-            "hash": "92b151a644de91a1168e72c75820bb58d1b6a76a4777700050f32935656a1386"
+            "hash": "b6fd5160d0410b8c42753c711c5c0e7ac5ec94ada208cde81b335db0c3fb8981"
         }
     ]
 }
