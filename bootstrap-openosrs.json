@@ -1,7 +1,7 @@
 {
     "clientJvm17Arguments": [
         "-XX:+DisableAttachMechanism",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
@@ -11,16 +11,16 @@
     "launcherJvm17Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "145bf06bc9c56d0fdd51cabae245a9cc058162ac",
+    "buildCommit": "eb2dd0d60e46faaf07fe832fa7dee78a47896564",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500"
     ],
@@ -35,7 +35,7 @@
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "jogl-gldesktop-dbg-2.4.0-rc-20220318.jar": "12cb4a18958d3da1fb7def4800cd31a5a266e9da9ccbb6dca9efa1d1b9d953e0",
-        "http-api-4.29.0.jar": "7a359b0aec352ef7ee540a3f11abb211941f3726271a9acc2eb3cf7e925fc23c",
+        "http-api-4.29.0.jar": "ab01edcd7f4b143bcaf7134fa1415e54fe22310fa20c4c21c4f826b7bb2d1d28",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "kotlin-stdlib-1.5.31.jar": "4800ceacb2ec0bb9959a087154b8e35318ead1ea4eba32d4bb1b9734222a7e68",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
@@ -94,7 +94,7 @@
     "launcherJvm17MacArguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
@@ -102,7 +102,7 @@
     ],
     "clientJvmArguments": [
         "-XX:+DisableAttachMechanism",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "-Xincgc",
@@ -114,7 +114,7 @@
     "launcherArguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "-Xincgc",
@@ -125,7 +125,7 @@
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
         "-Drunelite.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
@@ -135,13 +135,13 @@
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
         "-Drunelite.launcher.blacklistedDlls=RTSSHooks.dll,RTSSHooks64.dll,NahimicOSD.dll,k_fps32.dll,k_fps64.dll",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500"
     ],
     "clientJvm9Arguments": [
         "-XX:+DisableAttachMechanism",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "-Dawt.useSystemAAFontSettings=on",
@@ -149,7 +149,7 @@
     ],
     "clientJvm17MacArguments": [
         "-XX:+DisableAttachMechanism",
-        "-Xmx512m",
+        "-Xmx1g",
         "-Xss2m",
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED",
@@ -175,7 +175,7 @@
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/http-api-4.29.0.jar",
             "size": 88795,
             "name": "http-api-4.29.0.jar",
-            "hash": "7a359b0aec352ef7ee540a3f11abb211941f3726271a9acc2eb3cf7e925fc23c"
+            "hash": "ab01edcd7f4b143bcaf7134fa1415e54fe22310fa20c4c21c4f826b7bb2d1d28"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/stable/runelite-jshell-4.29.0.jar",
