@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "f01ff9ec0332be961f36c52b404c7c531d35c95e",
+    "buildCommit": "f35737b078d3a284cf6e355331264b1f022f21a0",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -32,7 +32,7 @@
         "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
         "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
-        "runelite-client-4.29.0-SNAPSHOT.jar": "5852a3be0a33e7d417c3e2ff9d7f2c23dc5b911c30765a0efc13743384ef9d97",
+        "runelite-client-4.29.0-SNAPSHOT.jar": "8847206356285c29d7409a72e11c6794646edcfc353c695f81b94c02fdb9391b",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "jogl-gldesktop-dbg-2.4.0-rc-20220318.jar": "12cb4a18958d3da1fb7def4800cd31a5a266e9da9ccbb6dca9efa1d1b9d953e0",
@@ -77,7 +77,7 @@
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "jogl-rl-2.4.0-rc-20220318.jar": "f36a1ddfaa92f9a8eae83a37627aebd22cd927ab9e5c7f0cfe778810757a7b1f",
         "runelite-jshell-4.29.0-SNAPSHOT.jar": "45263cf73d03229aa00d27eaf03d29bb8f93cd700a6ce8bff10bef66b0d87c33",
-        "http-api-4.29.0-SNAPSHOT.jar": "aa9e25cbf58161e61f6fd364ac020d4cee03538fcd6c1b3f058fbde7f1280cdc",
+        "http-api-4.29.0-SNAPSHOT.jar": "5874e093d7fb85cfb037047260ab3b7cc53ab0b3b852a30b7760135ddc76d540",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "jogl-rl-2.4.0-rc-20220318-natives-macosx-universal.jar": "06da0e7e3c519b44c6ce510ff31ef5ade04a5f97f20461b2991dc55e373553c0",
         "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
@@ -173,9 +173,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/http-api-4.29.0-SNAPSHOT.jar",
-            "size": 88794,
+            "size": 88795,
             "name": "http-api-4.29.0-SNAPSHOT.jar",
-            "hash": "aa9e25cbf58161e61f6fd364ac020d4cee03538fcd6c1b3f058fbde7f1280cdc"
+            "hash": "5874e093d7fb85cfb037047260ab3b7cc53ab0b3b852a30b7760135ddc76d540"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-jshell-4.29.0-SNAPSHOT.jar",
@@ -601,9 +601,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-client-4.29.0-SNAPSHOT.jar",
-            "size": 11423515,
+            "size": 11423851,
             "name": "runelite-client-4.29.0-SNAPSHOT.jar",
-            "hash": "5852a3be0a33e7d417c3e2ff9d7f2c23dc5b911c30765a0efc13743384ef9d97"
+            "hash": "8847206356285c29d7409a72e11c6794646edcfc353c695f81b94c02fdb9391b"
         }
     ]
 }
