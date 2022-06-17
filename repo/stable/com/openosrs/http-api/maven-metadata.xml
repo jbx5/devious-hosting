@@ -3,11 +3,11 @@
   <groupId>com.openosrs</groupId>
   <artifactId>http-api</artifactId>
   <versioning>
-    <latest>4.30.0</latest>
-    <release>4.30.0</release>
+    <latest>4.31.0</latest>
+    <release>4.31.0</release>
     <versions>
-      <version>4.30.0</version>
+      <version>4.31.0</version>
     </versions>
-    <lastUpdated>20220616195159</lastUpdated>
+    <lastUpdated>20220617155851</lastUpdated>
   </versioning>
 </metadata>
