@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "972338bf2593e5d5eac7ca94eb87af28a90ab838",
+    "buildCommit": "61b138ee8175251007c4044ebe582ff3a8676803",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -28,7 +28,7 @@
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
-        "runescape-api-4.32.0-SNAPSHOT.jar": "82f6e238866d7cdcd7d2e479823df800f8d69016b5dad7f3b025102f627fb149",
+        "runescape-api-4.32.0-SNAPSHOT.jar": "2aa62148b3f137f8582265db8b41a767f25a5047aa44434227484b1cdcffdbb3",
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
         "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
@@ -77,7 +77,7 @@
         "gluegen-rt-2.4.0-rc-20220318-natives-macosx-universal.jar": "c4d42a4c2335b1a5eb6d56a871af9360184b2dd2a028e9b7b7bd8644f6975583",
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "jogl-rl-2.4.0-rc-20220318.jar": "f36a1ddfaa92f9a8eae83a37627aebd22cd927ab9e5c7f0cfe778810757a7b1f",
-        "http-api-4.32.0-SNAPSHOT.jar": "1ced74a28b47ee41dca428142750c023282b615e0e8f6bbf1473e50d328faa88",
+        "http-api-4.32.0-SNAPSHOT.jar": "46fac15ba94ec33416c653f048381ece56273f008a5d3fd6ecdd9c76408b53dc",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "jogl-rl-2.4.0-rc-20220318-natives-macosx-universal.jar": "06da0e7e3c519b44c6ce510ff31ef5ade04a5f97f20461b2991dc55e373553c0",
         "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
@@ -90,7 +90,7 @@
         "j2objc-annotations-1.3.jar": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
         "gluegen-rt-2.4.0-rc-20220318-natives-linux-amd64.jar": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
         "rxrelay-3.0.1.jar": "f47904873d4d2b7d71b22a7ec6424b40f69b33cb0342a48a94b0be3fdeb70bc5",
-        "runelite-client-4.32.0-SNAPSHOT.jar": "d5fa1e60a26ccd2c7d92076e4b01c5972b52ec2102c72d876218b7ae5a15507d"
+        "runelite-client-4.32.0-SNAPSHOT.jar": "482e7da8d7c6f7a639eec0791f9637f9509d1b65910ef81c1dbaa6d4f8252bca"
     },
     "launcherJvm17MacArguments": [
         "-XX:+DisableAttachMechanism",
@@ -162,9 +162,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runescape-api-4.32.0-SNAPSHOT.jar",
-            "size": 125188,
+            "size": 125296,
             "name": "runescape-api-4.32.0-SNAPSHOT.jar",
-            "hash": "82f6e238866d7cdcd7d2e479823df800f8d69016b5dad7f3b025102f627fb149"
+            "hash": "2aa62148b3f137f8582265db8b41a767f25a5047aa44434227484b1cdcffdbb3"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-api-4.32.0-SNAPSHOT.jar",
@@ -174,9 +174,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/http-api-4.32.0-SNAPSHOT.jar",
-            "size": 88796,
+            "size": 88795,
             "name": "http-api-4.32.0-SNAPSHOT.jar",
-            "hash": "1ced74a28b47ee41dca428142750c023282b615e0e8f6bbf1473e50d328faa88"
+            "hash": "46fac15ba94ec33416c653f048381ece56273f008a5d3fd6ecdd9c76408b53dc"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-jshell-4.32.0-SNAPSHOT.jar",
@@ -608,9 +608,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/hosting/master/nightly/runelite-client-4.32.0-SNAPSHOT.jar",
-            "size": 11487590,
+            "size": 11487641,
             "name": "runelite-client-4.32.0-SNAPSHOT.jar",
-            "hash": "d5fa1e60a26ccd2c7d92076e4b01c5972b52ec2102c72d876218b7ae5a15507d"
+            "hash": "482e7da8d7c6f7a639eec0791f9637f9509d1b65910ef81c1dbaa6d4f8252bca"
         }
     ]
 }
