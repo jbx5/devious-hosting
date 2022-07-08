@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "181bdf78168d239b6712ee3829a22c6355cf1128",
+    "buildCommit": "1d8c1a56f26d7faf7c1a76b5556935d6e45c7cd8",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -41,7 +41,7 @@
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
         "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
-        "http-api-1.0.0.jar": "656adcea05f7a18afa088f5e00f3137df96a4c5c2c888ba375a56d8ebc3c405e",
+        "http-api-1.0.0.jar": "5738c22dd3c6426641a1b9bd15aba48649935138c9e328c12af9bfcf62b1573a",
         "gluegen-rt-2.4.0-rc-20220318-natives-windows-i586.jar": "fc235e8164cbac2382053b850b10cd7cc971241b54b3f84410ff54edd71c852d",
         "commons-io-2.8.0.jar": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074",
         "reactive-streams-1.0.3.jar": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865",
@@ -81,7 +81,7 @@
         "gluegen-rt-2.4.0-rc-20220318-natives-windows-amd64.jar": "1ab1e977c70bf8edbc519438619e9c317d285ef286eb95cd241546492ba0dc64",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
-        "runelite-client-1.0.0.jar": "814d4f989313ac9ecc373dda80a9e17d73b09a8a6f8645dfcd0823d41e3ddb8f",
+        "runelite-client-1.0.0.jar": "7117c00390a659a3a51aa11a4b7499fc60d28383a59d3c428d8eb31c1354216c",
         "jogl-rl-2.4.0-rc-20220318-natives-linux-amd64.jar": "346dee2189c431fe99980c478e511f9465f26bd8aba4db4288010532fde116af",
         "kotlin-stdlib-common-1.6.21.jar": "183bec59cd9f3a14957b190e8c879cf1194bd1f106b0a7b6e1cbb8790d242363",
         "jgroups-5.2.2.Final.jar": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e",
@@ -174,9 +174,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/http-api-1.0.0.jar",
-            "size": 88794,
+            "size": 88795,
             "name": "http-api-1.0.0.jar",
-            "hash": "656adcea05f7a18afa088f5e00f3137df96a4c5c2c888ba375a56d8ebc3c405e"
+            "hash": "5738c22dd3c6426641a1b9bd15aba48649935138c9e328c12af9bfcf62b1573a"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-jshell-1.0.0.jar",
@@ -608,9 +608,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-client-1.0.0.jar",
-            "size": 11503042,
+            "size": 11503084,
             "name": "runelite-client-1.0.0.jar",
-            "hash": "814d4f989313ac9ecc373dda80a9e17d73b09a8a6f8645dfcd0823d41e3ddb8f"
+            "hash": "7117c00390a659a3a51aa11a4b7499fc60d28383a59d3c428d8eb31c1354216c"
         }
     ]
 }
