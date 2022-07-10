@@ -92,7 +92,7 @@
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "lwjgl-opengl-3.3.1.jar": "e436d2144f3a36fff772fd64233316809b795f390defd4d55660fc686e7c2834",
-        "runelite-client-1.0.1.jar": "8a1992183fb913e50fab78d1564cdf3e7fea6cc0715e2ad1fe7c5c197cce5363",
+        "runelite-client-1.0.1.jar": "5dd80123da311ca717d374be06143e639786f152b0925b0ac9d5ad8beea98816",
         "jogl-rl-2.4.0-rc-20220318-natives-linux-amd64.jar": "346dee2189c431fe99980c478e511f9465f26bd8aba4db4288010532fde116af",
         "lwjgl-opengl-3.3.1-natives-macos-arm64.jar": "dbd110044eae8adbca8e3c7a730529a351559e74cea887bb3cd6ef0dc016f295",
         "lwjgl-3.3.1-natives-windows-x86.jar": "e90c1f9cf5701aeef2982ebf0905a2b991f4622b8a7f8250eaf0873b5a0a0223",
@@ -699,9 +699,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-client-1.0.1.jar",
-            "size": 11508239,
+            "size": 11508242,
             "name": "runelite-client-1.0.1.jar",
-            "hash": "8a1992183fb913e50fab78d1564cdf3e7fea6cc0715e2ad1fe7c5c197cce5363"
+            "hash": "5dd80123da311ca717d374be06143e639786f152b0925b0ac9d5ad8beea98816"
         }
     ]
 }
