@@ -1,0 +1,92 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.unethicalite.rs",
+    "module": "runescape-api",
+    "version": "1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.unethicalite",
+          "module": "runelite-api",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.unethicalite",
+          "module": "injection-annotations",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescape-api-1.0.1.jar",
+          "url": "runescape-api-1.0.1.jar",
+          "size": 126595,
+          "sha512": "a9f81d1a821f3e0c042ae61c54644ee82e8e6c22b088e822e7a04ef8ccd7fd625d1212e601f293a846b2ae14ab3d95d39b6c134f6b9ac37a02f90a07bfe53773",
+          "sha256": "d0674d5c021bb3a52224afcb384c94ca2d3700b96826afa2fc988d1bea154f59",
+          "sha1": "505cadd476e290e4b23457ef480eb4fc8a0bb318",
+          "md5": "5c157abd6fd48be82567b6c05a74be0f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.unethicalite",
+          "module": "runelite-api",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "net.unethicalite",
+          "module": "injection-annotations",
+          "version": {
+            "requires": "1.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "runescape-api-1.0.1.jar",
+          "url": "runescape-api-1.0.1.jar",
+          "size": 126595,
+          "sha512": "a9f81d1a821f3e0c042ae61c54644ee82e8e6c22b088e822e7a04ef8ccd7fd625d1212e601f293a846b2ae14ab3d95d39b6c134f6b9ac37a02f90a07bfe53773",
+          "sha256": "d0674d5c021bb3a52224afcb384c94ca2d3700b96826afa2fc988d1bea154f59",
+          "sha1": "505cadd476e290e4b23457ef480eb4fc8a0bb318",
+          "md5": "5c157abd6fd48be82567b6c05a74be0f"
+        }
+      ]
+    }
+  ]
+}
