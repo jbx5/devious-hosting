@@ -3,10 +3,10 @@
   <groupId>net.unethicalite</groupId>
   <artifactId>runelite-jshell</artifactId>
   <versioning>
-    <latest>1.0.1-SNAPSHOT</latest>
+    <latest>1.0.2-SNAPSHOT</latest>
     <versions>
-      <version>1.0.1-SNAPSHOT</version>
+      <version>1.0.2-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220709125220</lastUpdated>
+    <lastUpdated>20220710110209</lastUpdated>
   </versioning>
 </metadata>
