@@ -9,6 +9,17 @@
   <groupId>net.unethicalite</groupId>
   <artifactId>runelite-client</artifactId>
   <version>1.0.2</version>
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.lwjgl</groupId>
+        <artifactId>lwjgl-bom</artifactId>
+        <version>3.3.1</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
   <dependencies>
     <dependency>
       <groupId>net.unethicalite</groupId>
@@ -119,6 +130,12 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
+      <groupId>net.runelite</groupId>
+      <artifactId>rlawt</artifactId>
+      <version>1.3</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
       <groupId>net.runelite.pushingpixels</groupId>
       <artifactId>substance</artifactId>
       <version>8.0.02</version>
@@ -215,91 +232,13 @@
       <scope>runtime</scope>
     </dependency>
     <dependency>
-      <groupId>net.runelite</groupId>
-      <artifactId>rlawt</artifactId>
-      <version>1.3</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
       <groupId>org.lwjgl</groupId>
       <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-linux</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-macos</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-macos-arm64</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-windows-x86</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-windows</classifier>
       <scope>runtime</scope>
     </dependency>
     <dependency>
       <groupId>org.lwjgl</groupId>
       <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-linux</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-macos</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-macos-arm64</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-windows-x86</classifier>
-      <scope>runtime</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.lwjgl</groupId>
-      <artifactId>lwjgl-opengl</artifactId>
-      <version>3.3.1</version>
-      <classifier>natives-windows</classifier>
       <scope>runtime</scope>
     </dependency>
     <dependency>
@@ -418,6 +357,66 @@
       <artifactId>jocl</artifactId>
       <version>1.0</version>
       <classifier>macos-arm64</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <classifier>natives-linux</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <classifier>natives-macos</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <classifier>natives-macos-arm64</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <classifier>natives-windows-x86</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl</artifactId>
+      <classifier>natives-windows</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-opengl</artifactId>
+      <classifier>natives-linux</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-opengl</artifactId>
+      <classifier>natives-macos</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-opengl</artifactId>
+      <classifier>natives-macos-arm64</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-opengl</artifactId>
+      <classifier>natives-windows-x86</classifier>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.lwjgl</groupId>
+      <artifactId>lwjgl-opengl</artifactId>
+      <classifier>natives-windows</classifier>
       <scope>runtime</scope>
     </dependency>
   </dependencies>

@@ -38,11 +38,11 @@
         {
           "name": "runelite-client-1.0.2.jar",
           "url": "runelite-client-1.0.2.jar",
-          "size": 11513032,
-          "sha512": "8fa8bc5b2cc5c6ea13659562bbdcda13652b2d53568652270b48c365c995dddbd6d2d0d45e1fca723143c175703578362ecaa76177f9143e8abe6bc7250794ef",
-          "sha256": "476680ddcd1c1e2a5e3c9a065b017f3da79db5f5305932f09d89ee3f0577ea79",
-          "sha1": "05a3959f8a4e6fec6184697b63e7ecf7b859364b",
-          "md5": "34ffcbc4de7ae99ef2fba84effd50351"
+          "size": 11513555,
+          "sha512": "92c6f1fc31463009538a95cdb2689a75857c4d21bb85ac6c6b957fb7cffcda84762974ee2b9064df9a3a791ac16a62033770d4f4181c8b6563d2cdbdb606ef15",
+          "sha256": "607cda5d5836af46a3ebcd38b1dbf08bdf5074aadd75af7166af0d243453db69",
+          "sha1": "f906f1301879baa7f50b0d9f1a2843f89251da06",
+          "md5": "b241548df48f68718cc86fc95cc5257d"
         }
       ]
     },
@@ -175,6 +175,13 @@
           }
         },
         {
+          "group": "net.runelite",
+          "module": "rlawt",
+          "version": {
+            "requires": "1.3"
+          }
+        },
+        {
           "group": "net.runelite.pushingpixels",
           "module": "substance",
           "version": {
@@ -286,175 +293,23 @@
           }
         },
         {
-          "group": "net.runelite",
-          "module": "rlawt",
-          "version": {
-            "requires": "1.3"
-          }
-        },
-        {
           "group": "org.lwjgl",
-          "module": "lwjgl",
-          "version": {
-            "requires": "3.3.1"
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl",
+          "module": "lwjgl-bom",
           "version": {
             "requires": "3.3.1"
           },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-linux"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl",
-          "version": {
-            "requires": "3.3.1"
+          "attributes": {
+            "org.gradle.category": "platform"
           },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-macos"
-            }
-          }
+          "endorseStrictVersions": true
         },
         {
           "group": "org.lwjgl",
-          "module": "lwjgl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-macos-arm64"
-            }
-          }
+          "module": "lwjgl"
         },
         {
           "group": "org.lwjgl",
-          "module": "lwjgl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-windows-x86"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-windows"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl-opengl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-linux"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl-opengl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-macos"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl-opengl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-macos-arm64"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl-opengl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-windows-x86"
-            }
-          }
-        },
-        {
-          "group": "org.lwjgl",
-          "module": "lwjgl-opengl",
-          "version": {
-            "requires": "3.3.1"
-          },
-          "thirdPartyCompatibility": {
-            "artifactSelector": {
-              "name": "lwjgl-opengl",
-              "type": "jar",
-              "extension": "jar",
-              "classifier": "natives-windows"
-            }
-          }
+          "module": "lwjgl-opengl"
         },
         {
           "group": "com.miglayout",
@@ -668,17 +523,137 @@
               "classifier": "macos-arm64"
             }
           }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-macos"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-macos-arm64"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-windows-x86"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-windows"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-linux"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-macos"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-macos-arm64"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-windows-x86"
+            }
+          }
+        },
+        {
+          "group": "org.lwjgl",
+          "module": "lwjgl-opengl",
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "lwjgl-opengl",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "natives-windows"
+            }
+          }
         }
       ],
       "files": [
         {
           "name": "runelite-client-1.0.2.jar",
           "url": "runelite-client-1.0.2.jar",
-          "size": 11513032,
-          "sha512": "8fa8bc5b2cc5c6ea13659562bbdcda13652b2d53568652270b48c365c995dddbd6d2d0d45e1fca723143c175703578362ecaa76177f9143e8abe6bc7250794ef",
-          "sha256": "476680ddcd1c1e2a5e3c9a065b017f3da79db5f5305932f09d89ee3f0577ea79",
-          "sha1": "05a3959f8a4e6fec6184697b63e7ecf7b859364b",
-          "md5": "34ffcbc4de7ae99ef2fba84effd50351"
+          "size": 11513555,
+          "sha512": "92c6f1fc31463009538a95cdb2689a75857c4d21bb85ac6c6b957fb7cffcda84762974ee2b9064df9a3a791ac16a62033770d4f4181c8b6563d2cdbdb606ef15",
+          "sha256": "607cda5d5836af46a3ebcd38b1dbf08bdf5074aadd75af7166af0d243453db69",
+          "sha1": "f906f1301879baa7f50b0d9f1a2843f89251da06",
+          "md5": "b241548df48f68718cc86fc95cc5257d"
         }
       ]
     },
@@ -694,11 +669,11 @@
         {
           "name": "runelite-client-1.0.2-shaded.jar",
           "url": "runelite-client-1.0.2-shaded.jar",
-          "size": 41298469,
-          "sha512": "1cc018013248f953be13ef440657806df0e8fd6061ab748220b569ee5cc35e09f2896a1dc78c2ea1ca2a3dac19edb475ff84855f470a8e661f1afbc7d60bbf2b",
-          "sha256": "e1d4e445630679e6b4e31295dd01cd37f292e9db8d8c84e015de349a86f1562c",
-          "sha1": "0fc68f905293172f5a343f25b4193fc03db00ee5",
-          "md5": "880fd27062c9041daa7c4a7957a64693"
+          "size": 41299831,
+          "sha512": "ac23d97e444555707556e819a7b4ec04fe10ed4eea87416287a525f33813c51793216d9f65b805593d031ee212753ac56e8423ddea1fac830c1d611c4b78781a",
+          "sha256": "c819417ad215e08096de7b072c63b5e7cf94e0fd9d6721623160a1270a9a4bb4",
+          "sha1": "6bc943f24e4eb851e0ce52fa1c3e71b2955d6821",
+          "md5": "02d961b955681306708ee3852e0a04da"
         }
       ]
     }
