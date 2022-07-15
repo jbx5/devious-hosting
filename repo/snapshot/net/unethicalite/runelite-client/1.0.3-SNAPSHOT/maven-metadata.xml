@@ -5,31 +5,31 @@
   <version>1.0.3-SNAPSHOT</version>
   <versioning>
     <snapshot>
-      <timestamp>20220715.100848</timestamp>
+      <timestamp>20220715.125617</timestamp>
       <buildNumber>1</buildNumber>
     </snapshot>
-    <lastUpdated>20220715100848</lastUpdated>
+    <lastUpdated>20220715125617</lastUpdated>
     <snapshotVersions>
       <snapshotVersion>
-        <classifier>shaded</classifier>
         <extension>jar</extension>
-        <value>1.0.3-20220715.100848-1</value>
-        <updated>20220715100848</updated>
+        <value>1.0.3-20220715.125617-1</value>
+        <updated>20220715125617</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>1.0.3-20220715.100848-1</value>
-        <updated>20220715100848</updated>
+        <value>1.0.3-20220715.125617-1</value>
+        <updated>20220715125617</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>shaded</classifier>
+        <extension>jar</extension>
+        <value>1.0.3-20220715.125617-1</value>
+        <updated>20220715125617</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>1.0.3-20220715.100848-1</value>
-        <updated>20220715100848</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>jar</extension>
-        <value>1.0.3-20220715.100848-1</value>
-        <updated>20220715100848</updated>
+        <value>1.0.3-20220715.125617-1</value>
+        <updated>20220715125617</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
