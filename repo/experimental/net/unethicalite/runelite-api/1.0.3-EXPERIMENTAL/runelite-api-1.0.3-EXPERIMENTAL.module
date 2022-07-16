@@ -27,11 +27,11 @@
         {
           "name": "runelite-api-1.0.3-EXPERIMENTAL.jar",
           "url": "runelite-api-1.0.3-EXPERIMENTAL.jar",
-          "size": 1377912,
-          "sha512": "9bf04ffa76175543cfe751f79b4099dbe2684813a0ba85c7a618b8345d7d78feb17a5a4d9e299f3bc95704d6c3b0da112d58ba27f145a0a98424476ab0536795",
-          "sha256": "bdb42617fe92dc2a0435024179be606266a5010d4403fc658cdc72009103f553",
-          "sha1": "148841f69d0ebc43968e06c7e62d5ac4075a4737",
-          "md5": "8c45d0bcdfe43ad6e6fef02eed292d91"
+          "size": 1377625,
+          "sha512": "09c1581c67b2571da575f19b8cdb992861a25becc6aa0a4d5bd4c1fccc073165a056ffa61a3bf72ba84770f5b70b401b2b0c32eb72b15691ebb21a0ad7d6c1a8",
+          "sha256": "0ac252ce316838ec70cf0e14027a7408ff3dfa0bd3f4b9eabe6ba075effca858",
+          "sha1": "0dbc4ed8e946011152f7b756212823f8358e5602",
+          "md5": "b4d4b746a1c83f02ee31d011b5f373ea"
         }
       ]
     },
@@ -85,11 +85,11 @@
         {
           "name": "runelite-api-1.0.3-EXPERIMENTAL.jar",
           "url": "runelite-api-1.0.3-EXPERIMENTAL.jar",
-          "size": 1377912,
-          "sha512": "9bf04ffa76175543cfe751f79b4099dbe2684813a0ba85c7a618b8345d7d78feb17a5a4d9e299f3bc95704d6c3b0da112d58ba27f145a0a98424476ab0536795",
-          "sha256": "bdb42617fe92dc2a0435024179be606266a5010d4403fc658cdc72009103f553",
-          "sha1": "148841f69d0ebc43968e06c7e62d5ac4075a4737",
-          "md5": "8c45d0bcdfe43ad6e6fef02eed292d91"
+          "size": 1377625,
+          "sha512": "09c1581c67b2571da575f19b8cdb992861a25becc6aa0a4d5bd4c1fccc073165a056ffa61a3bf72ba84770f5b70b401b2b0c32eb72b15691ebb21a0ad7d6c1a8",
+          "sha256": "0ac252ce316838ec70cf0e14027a7408ff3dfa0bd3f4b9eabe6ba075effca858",
+          "sha1": "0dbc4ed8e946011152f7b756212823f8358e5602",
+          "md5": "b4d4b746a1c83f02ee31d011b5f373ea"
         }
       ]
     }
