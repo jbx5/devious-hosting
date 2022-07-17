@@ -3,10 +3,10 @@
   <groupId>net.unethicalite.rs</groupId>
   <artifactId>runescape-api</artifactId>
   <versioning>
-    <latest>1.0.3-SNAPSHOT</latest>
+    <latest>1.0.4-SNAPSHOT</latest>
     <versions>
-      <version>1.0.3-SNAPSHOT</version>
+      <version>1.0.4-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20220717185725</lastUpdated>
+    <lastUpdated>20220717220536</lastUpdated>
   </versioning>
 </metadata>
