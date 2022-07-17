@@ -3,11 +3,11 @@
   <groupId>net.unethicalite</groupId>
   <artifactId>runelite-client</artifactId>
   <versioning>
-    <latest>1.0.3-EXPERIMENTAL</latest>
-    <release>1.0.3-EXPERIMENTAL</release>
+    <latest>1.0.4-EXPERIMENTAL</latest>
+    <release>1.0.4-EXPERIMENTAL</release>
     <versions>
-      <version>1.0.3-EXPERIMENTAL</version>
+      <version>1.0.4-EXPERIMENTAL</version>
     </versions>
-    <lastUpdated>20220716215747</lastUpdated>
+    <lastUpdated>20220717220705</lastUpdated>
   </versioning>
 </metadata>
