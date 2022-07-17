@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "26fbde819f6895820ec029e77f8b542183b78a70",
+    "buildCommit": "5e2f4d133b52e556fc37d2275f6ee1f6b8a0d97e",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -101,7 +101,7 @@
         "gluegen-rt-2.4.0-rc-20220318.jar": "ba22a3338a3dea346801f5ae4a0341fc13f59bf4b02d54d575a6f0399a30e8b2",
         "lwjgl-3.3.1.jar": "cf83f90e32fb973ff5edfca4ef35f55ca51bb70a579b6a1f290744f552e8e484",
         "j2objc-annotations-1.3.jar": "21af30c92267bd6122c0e0b4d20cccb6641a37eaf956c6540ec471d584e64a7b",
-        "http-api-1.0.3-SNAPSHOT.jar": "a850eb39656926f280601243316f7f52e69d99be8e070f9dde6955db7d651ccd",
+        "http-api-1.0.3-SNAPSHOT.jar": "48c81e026b8672a28482e8c09698919afaa0760d2c8881bea65b1f22f15102c3",
         "gluegen-rt-2.4.0-rc-20220318-natives-linux-amd64.jar": "187ce9ddabfa7cd83447ccf9c166018aa7d2519c334942d91e33b3aaf24b53c7",
         "rxrelay-3.0.1.jar": "f47904873d4d2b7d71b22a7ec6424b40f69b33cb0342a48a94b0be3fdeb70bc5"
     },
@@ -187,9 +187,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/http-api-1.0.3-SNAPSHOT.jar",
-            "size": 85080,
+            "size": 85865,
             "name": "http-api-1.0.3-SNAPSHOT.jar",
-            "hash": "a850eb39656926f280601243316f7f52e69d99be8e070f9dde6955db7d651ccd"
+            "hash": "48c81e026b8672a28482e8c09698919afaa0760d2c8881bea65b1f22f15102c3"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-jshell-1.0.3-SNAPSHOT.jar",
