@@ -38,11 +38,11 @@
         {
           "name": "runelite-client-1.0.4-EXPERIMENTAL.jar",
           "url": "runelite-client-1.0.4-EXPERIMENTAL.jar",
-          "size": 11474753,
-          "sha512": "7166fc8fb20a5348642dd7ad16fdb2fbd965c07c8ecb00140ca4dedd35ab3f213b18e8c5cf73f9b3ad69ff7a89428627555c24422e0dddc238d52c99c26c849c",
-          "sha256": "03a9998eb32ab994065e1bead9e1a9b38a3da5b8064780f5e4d5683a5f4638cf",
-          "sha1": "e288e8ce7c21de05372db8de2eeb1d5afbfe960a",
-          "md5": "7c933bf1f636cb12aee8edad3438b106"
+          "size": 11474969,
+          "sha512": "e7b69189fcdd36c05a3b6655c951beb5a209d9081efbcb717d7d4d56d6dd44527ae000c8fea5247f364de25f090bb1ee712a254f5888a81524535dde07f425f5",
+          "sha256": "f640fb6833cf148e1f22e5c872e6c6891c3fe76386135c57b7336eb99210a28d",
+          "sha1": "b5d6e98060af1404660eaba3c2c0bdeee0b5b4d4",
+          "md5": "3cba73af86cf281fa62d8fc900e9c86f"
         }
       ]
     },
@@ -649,11 +649,11 @@
         {
           "name": "runelite-client-1.0.4-EXPERIMENTAL.jar",
           "url": "runelite-client-1.0.4-EXPERIMENTAL.jar",
-          "size": 11474753,
-          "sha512": "7166fc8fb20a5348642dd7ad16fdb2fbd965c07c8ecb00140ca4dedd35ab3f213b18e8c5cf73f9b3ad69ff7a89428627555c24422e0dddc238d52c99c26c849c",
-          "sha256": "03a9998eb32ab994065e1bead9e1a9b38a3da5b8064780f5e4d5683a5f4638cf",
-          "sha1": "e288e8ce7c21de05372db8de2eeb1d5afbfe960a",
-          "md5": "7c933bf1f636cb12aee8edad3438b106"
+          "size": 11474969,
+          "sha512": "e7b69189fcdd36c05a3b6655c951beb5a209d9081efbcb717d7d4d56d6dd44527ae000c8fea5247f364de25f090bb1ee712a254f5888a81524535dde07f425f5",
+          "sha256": "f640fb6833cf148e1f22e5c872e6c6891c3fe76386135c57b7336eb99210a28d",
+          "sha1": "b5d6e98060af1404660eaba3c2c0bdeee0b5b4d4",
+          "md5": "3cba73af86cf281fa62d8fc900e9c86f"
         }
       ]
     },
@@ -669,11 +669,11 @@
         {
           "name": "runelite-client-1.0.4-EXPERIMENTAL-shaded.jar",
           "url": "runelite-client-1.0.4-EXPERIMENTAL-shaded.jar",
-          "size": 41257923,
-          "sha512": "dfec4f723e822fc6138ff36aa9a0e65212a467bd28c2f1ff1cd3e356a088ddae6838c6742cb8538cbb37f5cc45719ac4aa835612aa4c8f25523029ab20399822",
-          "sha256": "6a5aaf81ab636e8e770ace98a883de0fbb780f3987cfac3ff575e6629772d465",
-          "sha1": "51ddca08c2aa92e5e7d634eb46a1e56197ab4c28",
-          "md5": "3f2ff5d10c740628ef6aedf8a14cc0b9"
+          "size": 41258139,
+          "sha512": "a42182f63105eae3946e0c00a90af11eadba96cecff3632e73567b3c1a2a69a191dde31984a7917f41cabcf587598f86f69e52b7b1279d5b2eab509d7a510db3",
+          "sha256": "98c16ccb00e7743a46b6481fd1e198a136ce3ff8d79f4d73a17aececa4e11883",
+          "sha1": "2da23ab7d2927bd36b14891af475d47fae1b1725",
+          "md5": "3101a090c95b408ed5e2bd337da97047"
         }
       ]
     }
