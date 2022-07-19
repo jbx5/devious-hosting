@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "a018ad92df59bba0e4e53601ea9a708bfcecdd97",
+    "buildCommit": "5b56749115904c743c0ecc60ab4ca24245383015",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -26,7 +26,7 @@
     ],
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
-        "runelite-client-1.0.4-EXPERIMENTAL.jar": "f640fb6833cf148e1f22e5c872e6c6891c3fe76386135c57b7336eb99210a28d",
+        "runelite-client-1.0.4-EXPERIMENTAL.jar": "dd3e4d4842bf9d3cf151b3ec3fbaa48d4f171eca882e6ecec18a538b12556dfb",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
@@ -71,7 +71,7 @@
         "autocomplete-3.1.1.jar": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d",
         "lwjgl-3.3.1-natives-macos.jar": "f48e610a981dca515b9bbe7345cc76e3450c13404b052d8ac357ef0af8e90abf",
         "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
-        "http-api-1.0.4-EXPERIMENTAL.jar": "80e9b42eb80785d96c5158a187d05f314b04b405bdf17a5399ba4428d208511a",
+        "http-api-1.0.4-EXPERIMENTAL.jar": "35429049c57947c0cb9ce5f2412f5ea8f423f5e570c26bf6754e5e8b529ab30f",
         "jopt-simple-5.0.4.jar": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
         "javax.inject-1.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
         "miglayout-3.7.4.jar": "f3bf5ab4041767da532e11e78a49a183da499d1a54ba539232d833b75f965667",
@@ -189,7 +189,7 @@
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/experimental/http-api-1.0.4-EXPERIMENTAL.jar",
             "size": 85931,
             "name": "http-api-1.0.4-EXPERIMENTAL.jar",
-            "hash": "80e9b42eb80785d96c5158a187d05f314b04b405bdf17a5399ba4428d208511a"
+            "hash": "35429049c57947c0cb9ce5f2412f5ea8f423f5e570c26bf6754e5e8b529ab30f"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/experimental/runelite-jshell-1.0.4-EXPERIMENTAL.jar",
@@ -699,9 +699,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/experimental/runelite-client-1.0.4-EXPERIMENTAL.jar",
-            "size": 11474969,
+            "size": 11481992,
             "name": "runelite-client-1.0.4-EXPERIMENTAL.jar",
-            "hash": "f640fb6833cf148e1f22e5c872e6c6891c3fe76386135c57b7336eb99210a28d"
+            "hash": "dd3e4d4842bf9d3cf151b3ec3fbaa48d4f171eca882e6ecec18a538b12556dfb"
         }
     ]
 }
