@@ -1,0 +1,104 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.unethicalite",
+    "module": "http-api",
+    "version": "1.0.5-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "http-api-1.0.5-SNAPSHOT.jar",
+          "url": "http-api-1.0.5-SNAPSHOT.jar",
+          "size": 85931,
+          "sha512": "d1b649973a1763cac540c8677fecb57fa77bb7c354671eedaf7ea10167627f2fb748df25eeaca32f188f92653fe4b6929180d4df4078e2e30f1ec1e64e37c140",
+          "sha256": "e5bbcdea0206c023e1a3af574acc73d5c90acb3cb662d7cdc5e0bd5078dcea28",
+          "sha1": "5f7d0417423199eb80a8e9c985311df9c481a6c8",
+          "md5": "9001b1ee4015b2b3ee38ca6c0a5685fe"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "com.google.inject",
+          "module": "guice",
+          "version": {
+            "requires": "5.0.1"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.9.1"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-csv",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-api-1.0.5-SNAPSHOT.jar",
+          "url": "http-api-1.0.5-SNAPSHOT.jar",
+          "size": 85931,
+          "sha512": "d1b649973a1763cac540c8677fecb57fa77bb7c354671eedaf7ea10167627f2fb748df25eeaca32f188f92653fe4b6929180d4df4078e2e30f1ec1e64e37c140",
+          "sha256": "e5bbcdea0206c023e1a3af574acc73d5c90acb3cb662d7cdc5e0bd5078dcea28",
+          "sha1": "5f7d0417423199eb80a8e9c985311df9c481a6c8",
+          "md5": "9001b1ee4015b2b3ee38ca6c0a5685fe"
+        }
+      ]
+    }
+  ]
+}
