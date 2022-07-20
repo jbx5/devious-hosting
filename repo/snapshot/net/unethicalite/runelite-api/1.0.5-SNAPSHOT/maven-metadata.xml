@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.unethicalite</groupId>
+  <artifactId>runelite-api</artifactId>
+  <version>1.0.5-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20220720.074128</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20220720074128</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>1.0.5-20220720.074128-1</value>
+        <updated>20220720074128</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>1.0.5-20220720.074128-1</value>
+        <updated>20220720074128</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>1.0.5-20220720.074128-1</value>
+        <updated>20220720074128</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
