@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "e4aac25cd997399b435d0df2a1e9a110826f2734",
+    "buildCommit": "4cded9a2334ea114af85380d38a99ef3a4192281",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -26,8 +26,8 @@
     ],
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
-        "http-api-1.0.6-SNAPSHOT.jar": "a9f0cdf51660460ca6d8a5bbfe94080af8dd65ef4a1748f52751dbc6377932c5",
-        "runelite-client-1.0.6-SNAPSHOT.jar": "39a373da91a6c7ff035bcb5b8ccf3e0d07a20817e48e0a2512c5fa4f74501dae",
+        "http-api-1.0.6-SNAPSHOT.jar": "1f95b17da5ebd8c29618e7b047211c96d452369923522267cfd81fa3062f5ae6",
+        "runelite-client-1.0.6-SNAPSHOT.jar": "a2be221b89d2996ed873b5c23177c65a79e5e8fa0a53275333d81d338547e42c",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
@@ -187,9 +187,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/http-api-1.0.6-SNAPSHOT.jar",
-            "size": 91329,
+            "size": 91328,
             "name": "http-api-1.0.6-SNAPSHOT.jar",
-            "hash": "a9f0cdf51660460ca6d8a5bbfe94080af8dd65ef4a1748f52751dbc6377932c5"
+            "hash": "1f95b17da5ebd8c29618e7b047211c96d452369923522267cfd81fa3062f5ae6"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-jshell-1.0.6-SNAPSHOT.jar",
@@ -699,9 +699,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-client-1.0.6-SNAPSHOT.jar",
-            "size": 11512618,
+            "size": 11513053,
             "name": "runelite-client-1.0.6-SNAPSHOT.jar",
-            "hash": "39a373da91a6c7ff035bcb5b8ccf3e0d07a20817e48e0a2512c5fa4f74501dae"
+            "hash": "a2be221b89d2996ed873b5c23177c65a79e5e8fa0a53275333d81d338547e42c"
         }
     ]
 }
