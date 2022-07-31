@@ -26,7 +26,7 @@
     ],
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
-        "runelite-client-1.0.7.jar": "d6c613bdb7bfb3b88be3758e76237018f2ba0d2578f6337dba73b8769500445f",
+        "runelite-client-1.0.7.jar": "5d9bbbfff4f548cd4aa47205eafbb5b5587ca0277b944a941d899fd825031dd0",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-client-1.0.7.jar",
-            "size": 11520692,
+            "size": 11520678,
             "name": "runelite-client-1.0.7.jar",
-            "hash": "d6c613bdb7bfb3b88be3758e76237018f2ba0d2578f6337dba73b8769500445f"
+            "hash": "5d9bbbfff4f548cd4aa47205eafbb5b5587ca0277b944a941d899fd825031dd0"
         }
     ]
 }
