@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "c596ccd06b78f3bcc83fe54ae1fafaf0958a6dfa",
+    "buildCommit": "9b80f16dc90b266075ad3040e6056ba64d6ee23f",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -26,7 +26,7 @@
     ],
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
-        "runelite-client-1.0.7.jar": "5d9bbbfff4f548cd4aa47205eafbb5b5587ca0277b944a941d899fd825031dd0",
+        "runelite-client-1.0.7.jar": "0ad95ca0a6e27be8d339435182ff8a7477d522aef50a13d67d0b0f87d4206709",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
@@ -63,7 +63,7 @@
         "substance-8.0.02.jar": "0467d25f408428824d5c9c09ec60ee1f0bc341d9bf48971a77fd14939a826c83",
         "commons-csv-1.9.0.jar": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc",
         "autocomplete-3.1.1.jar": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d",
-        "http-api-1.0.7.jar": "ec1549ca1aeb0ba2875e2030dfc106289d65fcc922b20b6e5a538af6e1f6d881",
+        "http-api-1.0.7.jar": "9305dc1cce14d6c9fe86ab292230a6a92a8640dc11efdbca0976374b49d90e57",
         "lwjgl-3.3.1-natives-macos.jar": "f48e610a981dca515b9bbe7345cc76e3450c13404b052d8ac357ef0af8e90abf",
         "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
         "jopt-simple-5.0.4.jar": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
@@ -179,7 +179,7 @@
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/http-api-1.0.7.jar",
             "size": 91329,
             "name": "http-api-1.0.7.jar",
-            "hash": "ec1549ca1aeb0ba2875e2030dfc106289d65fcc922b20b6e5a538af6e1f6d881"
+            "hash": "9305dc1cce14d6c9fe86ab292230a6a92a8640dc11efdbca0976374b49d90e57"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-jshell-1.0.7.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/stable/runelite-client-1.0.7.jar",
-            "size": 11520678,
+            "size": 11520665,
             "name": "runelite-client-1.0.7.jar",
-            "hash": "5d9bbbfff4f548cd4aa47205eafbb5b5587ca0277b944a941d899fd825031dd0"
+            "hash": "0ad95ca0a6e27be8d339435182ff8a7477d522aef50a13d67d0b0f87d4206709"
         }
     ]
 }
