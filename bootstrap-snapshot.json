@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "8c6767ec8166c2e1f8dd397a686df98376df73a1",
+    "buildCommit": "6785c51440262981d3f71e003be34bb3b7472a0c",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -25,7 +25,7 @@
         "-XX:CompileThreshold=1500"
     ],
     "dependencyHashes": {
-        "http-api-1.0.8-SNAPSHOT.jar": "e7333478f5e5e1ab3d32ca58f789301eeed0554b7b44f28a78110ae372bb49bb",
+        "http-api-1.0.8-SNAPSHOT.jar": "18726c1a4f8761e4796ef32867aa8cd61b83e205446a2b5c90af9750371750e0",
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
@@ -41,7 +41,7 @@
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
-        "runelite-api-1.0.8-SNAPSHOT.jar": "a29c9c6897a892db15b075f1c929334eb67e9acc3226e4611d71b7aeb63f575b",
+        "runelite-api-1.0.8-SNAPSHOT.jar": "c21616e73cc5d5353dc693dd37d602347fa47c46496ce68f9ea897829751d1f7",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
@@ -55,7 +55,7 @@
         "guice-5.0.1.jar": "3bae18be3e0f0940375d1ebdd2f3b84d87ae16026ae663b2f5d4667fe5b04036",
         "logback-classic-1.2.9.jar": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee",
         "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
-        "runelite-client-1.0.8-SNAPSHOT.jar": "c05d4be2a8c79ca431eee2c41af3e2c9bae193501a04aa44c1dc4f185becabe0",
+        "runelite-client-1.0.8-SNAPSHOT.jar": "0ef04aee573830c06c99fc7367af03794272f04ef513098abbde0289c68b5714",
         "okio-jvm-2.8.0.jar": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8",
         "jocl-1.0-macos-arm64.jar": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
         "checker-qual-3.8.0.jar": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-api-1.0.8-SNAPSHOT.jar",
-            "size": 1378708,
+            "size": 1378724,
             "name": "runelite-api-1.0.8-SNAPSHOT.jar",
-            "hash": "a29c9c6897a892db15b075f1c929334eb67e9acc3226e4611d71b7aeb63f575b"
+            "hash": "c21616e73cc5d5353dc693dd37d602347fa47c46496ce68f9ea897829751d1f7"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/http-api-1.0.8-SNAPSHOT.jar",
-            "size": 91328,
+            "size": 91329,
             "name": "http-api-1.0.8-SNAPSHOT.jar",
-            "hash": "e7333478f5e5e1ab3d32ca58f789301eeed0554b7b44f28a78110ae372bb49bb"
+            "hash": "18726c1a4f8761e4796ef32867aa8cd61b83e205446a2b5c90af9750371750e0"
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-jshell-1.0.8-SNAPSHOT.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/unethicalite/unethicalite-hosting/master/snapshot/runelite-client-1.0.8-SNAPSHOT.jar",
-            "size": 11537889,
+            "size": 11538107,
             "name": "runelite-client-1.0.8-SNAPSHOT.jar",
-            "hash": "c05d4be2a8c79ca431eee2c41af3e2c9bae193501a04aa44c1dc4f185becabe0"
+            "hash": "0ef04aee573830c06c99fc7367af03794272f04ef513098abbde0289c68b5714"
         }
     ]
 }
