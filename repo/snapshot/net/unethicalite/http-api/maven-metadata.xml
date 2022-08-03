@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.unethicalite</groupId>
+  <artifactId>http-api</artifactId>
+  <versioning>
+    <latest>1.0.9-SNAPSHOT</latest>
+    <versions>
+      <version>1.0.9-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20220803140331</lastUpdated>
+  </versioning>
+</metadata>
