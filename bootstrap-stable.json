@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "374379e7c69a7cd80b79bf355f31d9d60a2b3dfb",
+    "buildCommit": "1858ba8fb1fc146231906726e8c3d6cddce769f3",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -38,7 +38,7 @@
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "http-api-1.0.13-STABLE.jar": "4608d74b7b6dd1d453da12ba7b4aba3953571920d3ba7223f28ef8d5ca9a0ce8",
+        "http-api-1.0.13-STABLE.jar": "21be551861b3811976dfe78796b2e6d33d70b0d4497d1914e04e81ed6cd7f618",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
@@ -179,7 +179,7 @@
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.13-STABLE.jar",
             "size": 95112,
             "name": "http-api-1.0.13-STABLE.jar",
-            "hash": "4608d74b7b6dd1d453da12ba7b4aba3953571920d3ba7223f28ef8d5ca9a0ce8"
+            "hash": "21be551861b3811976dfe78796b2e6d33d70b0d4497d1914e04e81ed6cd7f618"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.13-STABLE.jar",
