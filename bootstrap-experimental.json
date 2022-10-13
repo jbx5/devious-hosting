@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "547915ef59f23fe424e4d35f209ab74248b153eb",
+    "buildCommit": "0cb2ac213044568f678ebe04290bb909b035e255",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -39,7 +39,7 @@
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "runelite-client-1.0.14-EXPERIMENTAL.jar": "3ad918c7995dde6b8a38fa20d4f819f70c1426a3e1b78cf397e5548e3d210648",
+        "runelite-client-1.0.14-EXPERIMENTAL.jar": "b273a2ee195d08a6fabd516552635aaae87e71ed72d07611b9e1aa48014e15bf",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
@@ -80,7 +80,7 @@
         "annotations-22.0.0.jar": "9f45f5d5184d50a777742389a7a6e6a5b0bf90b316919774d8336f94776c31b2",
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
-        "http-api-1.0.14-EXPERIMENTAL.jar": "68ffda3131fc119d7c2af6f9cca1f333299de9cfbd985a501b188525928f0010",
+        "http-api-1.0.14-EXPERIMENTAL.jar": "6c7ff886b11d6627739b7c46a79dbb3e260893c16aa2bb0710164c306fbbc312",
         "lwjgl-3.3.1-natives-macos-arm64.jar": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
@@ -177,9 +177,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.14-EXPERIMENTAL.jar",
-            "size": 95149,
+            "size": 95148,
             "name": "http-api-1.0.14-EXPERIMENTAL.jar",
-            "hash": "68ffda3131fc119d7c2af6f9cca1f333299de9cfbd985a501b188525928f0010"
+            "hash": "6c7ff886b11d6627739b7c46a79dbb3e260893c16aa2bb0710164c306fbbc312"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.14-EXPERIMENTAL.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.14-EXPERIMENTAL.jar",
-            "size": 11644389,
+            "size": 11644410,
             "name": "runelite-client-1.0.14-EXPERIMENTAL.jar",
-            "hash": "3ad918c7995dde6b8a38fa20d4f819f70c1426a3e1b78cf397e5548e3d210648"
+            "hash": "b273a2ee195d08a6fabd516552635aaae87e71ed72d07611b9e1aa48014e15bf"
         }
     ]
 }
