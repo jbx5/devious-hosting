@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "d45037aa5e7e49b701b17d580b71180fba1ecc39",
+    "buildCommit": "da6068733ef47b22676a9ecf9e092979983e9678",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -80,7 +80,7 @@
         "annotations-22.0.0.jar": "9f45f5d5184d50a777742389a7a6e6a5b0bf90b316919774d8336f94776c31b2",
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
-        "http-api-1.0.14-EXPERIMENTAL.jar": "b987e35feb2cad0bbb54a2c567531ecff06291d2445c7baf45c8c90f01b2b2fb",
+        "http-api-1.0.14-EXPERIMENTAL.jar": "258fd98b8de3ed4efe1420133c6efc5c1cce5dee83990f96fd19563fb0d6e2a1",
         "lwjgl-3.3.1-natives-macos-arm64.jar": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
@@ -179,7 +179,7 @@
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.14-EXPERIMENTAL.jar",
             "size": 95148,
             "name": "http-api-1.0.14-EXPERIMENTAL.jar",
-            "hash": "b987e35feb2cad0bbb54a2c567531ecff06291d2445c7baf45c8c90f01b2b2fb"
+            "hash": "258fd98b8de3ed4efe1420133c6efc5c1cce5dee83990f96fd19563fb0d6e2a1"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.14-EXPERIMENTAL.jar",
