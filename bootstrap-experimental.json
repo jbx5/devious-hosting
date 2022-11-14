@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "62d292bc6a0daad45fb9c5f81c719db65b2592bb",
+    "buildCommit": "500b5f4b971b48458ff5c011c5a2af42b4a44cac",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -39,7 +39,7 @@
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "runelite-client-1.0.14-EXPERIMENTAL.jar": "f3d815ccf17ab4e78354398ee1ecd857d532329bab5f862864052bd02015b887",
+        "runelite-client-1.0.14-EXPERIMENTAL.jar": "ea98d56f7eedccafeedf95208e6242774adff76155f8dafd333b2341b9606b47",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
@@ -75,12 +75,12 @@
         "jsr305-3.0.2.jar": "766ad2a0783f2687962c8ad74ceecc38a28b9f72a2d085ee438b7813e928d0c7",
         "kotlin-stdlib-1.6.21.jar": "739c526672bb337573b28f63afa8306eb088b0c3a0967f56d6c89f4a3012a492",
         "json-20090211.jar": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a",
-        "runelite-api-1.0.14-EXPERIMENTAL.jar": "ec065de5af46c06057f8a674d21636e2a62b8a685a3b115a13951de887003a38",
+        "runelite-api-1.0.14-EXPERIMENTAL.jar": "076974fa102e6d2b43987c7d93a21af2d0e9cc195862ab6d75d20efb1e660a6b",
         "jocl-1.0.jar": "126bde4a6be269579a84a67dfc7707fd2916e0eef11b74c4de7cc61a36d2420e",
         "annotations-22.0.0.jar": "9f45f5d5184d50a777742389a7a6e6a5b0bf90b316919774d8336f94776c31b2",
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
-        "http-api-1.0.14-EXPERIMENTAL.jar": "d1459f5c778cad70256d2562b875f5e6b04883b0a1a626385a31edd10b94d9f1",
+        "http-api-1.0.14-EXPERIMENTAL.jar": "68fe1fe25931a760deb46871fca451d7b3b88a57c7b9763dc1823142ce911805",
         "lwjgl-3.3.1-natives-macos-arm64.jar": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-api-1.0.14-EXPERIMENTAL.jar",
-            "size": 1398853,
+            "size": 1400117,
             "name": "runelite-api-1.0.14-EXPERIMENTAL.jar",
-            "hash": "ec065de5af46c06057f8a674d21636e2a62b8a685a3b115a13951de887003a38"
+            "hash": "076974fa102e6d2b43987c7d93a21af2d0e9cc195862ab6d75d20efb1e660a6b"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.14-EXPERIMENTAL.jar",
-            "size": 95211,
+            "size": 95210,
             "name": "http-api-1.0.14-EXPERIMENTAL.jar",
-            "hash": "d1459f5c778cad70256d2562b875f5e6b04883b0a1a626385a31edd10b94d9f1"
+            "hash": "68fe1fe25931a760deb46871fca451d7b3b88a57c7b9763dc1823142ce911805"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.14-EXPERIMENTAL.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.14-EXPERIMENTAL.jar",
-            "size": 11647031,
+            "size": 11649201,
             "name": "runelite-client-1.0.14-EXPERIMENTAL.jar",
-            "hash": "f3d815ccf17ab4e78354398ee1ecd857d532329bab5f862864052bd02015b887"
+            "hash": "ea98d56f7eedccafeedf95208e6242774adff76155f8dafd333b2341b9606b47"
         }
     ]
 }
