@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "e224aebbe7fe8bb06a06530079f2c450f36be1ae",
+    "buildCommit": "4dd65a43b27e14f3d8000d99c3a2385199d01c2a",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -27,11 +27,11 @@
     "dependencyHashes": {
         "runescape-api-1.0.14-STABLE.jar": "b8c17177a712abc73946052bbe2f38bbbab302e101679386b7d0fadfc4aeef10",
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
-        "runelite-api-1.0.14-STABLE.jar": "5839b3ed0e930147261311394aae15c7195e233ee82c3f442ad5712f6a0f0cc6",
+        "runelite-api-1.0.14-STABLE.jar": "20611ad7c662682cb70c7000ec91278ec42fedf9d047c63ad1f05382ea074126",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "protobuf-javalite-3.21.1.jar": "101fd28d111ad1b95550ba45ab295cd1e8e8eb0676f66ed6705adba6042597ff",
-        "http-api-1.0.14-STABLE.jar": "c5fc33ccce5fb8f8be4e70ac2a8f8af3a13b8fafc3ea3fd722af541170d444c5",
+        "http-api-1.0.14-STABLE.jar": "5560e26bb4473488ed07c2befcd1a122127c76bbeb284b5b941320c41e9acd1e",
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
         "runelite-jshell-1.0.14-STABLE.jar": "45263cf73d03229aa00d27eaf03d29bb8f93cd700a6ce8bff10bef66b0d87c33",
@@ -42,7 +42,7 @@
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "runelite-client-1.0.14-STABLE.jar": "dad1bd7bbbfdb8c2424d9a2c8f5eb84aa8c2e089b199d55a28affc573ab7c2f8",
+        "runelite-client-1.0.14-STABLE.jar": "b177a8af50fbcd252c6fe74c8f12d734a0279d8d68b9e4cefc6f4c4aad37f6fd",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-api-1.0.14-STABLE.jar",
-            "size": 1397982,
+            "size": 1399315,
             "name": "runelite-api-1.0.14-STABLE.jar",
-            "hash": "5839b3ed0e930147261311394aae15c7195e233ee82c3f442ad5712f6a0f0cc6"
+            "hash": "20611ad7c662682cb70c7000ec91278ec42fedf9d047c63ad1f05382ea074126"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.14-STABLE.jar",
-            "size": 95148,
+            "size": 95149,
             "name": "http-api-1.0.14-STABLE.jar",
-            "hash": "c5fc33ccce5fb8f8be4e70ac2a8f8af3a13b8fafc3ea3fd722af541170d444c5"
+            "hash": "5560e26bb4473488ed07c2befcd1a122127c76bbeb284b5b941320c41e9acd1e"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.14-STABLE.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-client-1.0.14-STABLE.jar",
-            "size": 11644390,
+            "size": 11644837,
             "name": "runelite-client-1.0.14-STABLE.jar",
-            "hash": "dad1bd7bbbfdb8c2424d9a2c8f5eb84aa8c2e089b199d55a28affc573ab7c2f8"
+            "hash": "b177a8af50fbcd252c6fe74c8f12d734a0279d8d68b9e4cefc6f4c4aad37f6fd"
         }
     ]
 }
