@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "205ac7bcd4487569c405157ff59a517ffad09b33",
+    "buildCommit": "a438cc2735d250749e80a87558d57d6035955bb4",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -36,7 +36,7 @@
         "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
-        "runelite-client-1.0.15-STABLE.jar": "1aaff7437d55a25573a7fdfcca37848460e6c41a3ee568200e1a8746d9d8ccbd",
+        "runelite-client-1.0.15-STABLE.jar": "f80e19c14bf021e04f4a7367e7e8ddd5c7055e93eef28d30d00240113a55ba21",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
@@ -50,7 +50,7 @@
         "rxjava-3.1.2.jar": "8d784075bec0b7c55042c109a4de8923b3b6d2ebd2e00912d518f07240f9c23a",
         "jna-platform-5.9.0.jar": "1903bc6d87f3ab92023957b91f45a9c8eb3515bad030356ce977201e5141b724",
         "guice-5.0.1.jar": "3bae18be3e0f0940375d1ebdd2f3b84d87ae16026ae663b2f5d4667fe5b04036",
-        "http-api-1.0.15-STABLE.jar": "77d3233f36376a15fbf0f1c2728d3e24d040eb7576c12c79b91080b466a8954d",
+        "http-api-1.0.15-STABLE.jar": "51a411a7c3847af5e74006c1b3c70757e980f5239e01775a874160dea1e14e6f",
         "logback-classic-1.2.9.jar": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee",
         "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
         "okio-jvm-2.8.0.jar": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8",
@@ -68,7 +68,7 @@
         "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
         "jopt-simple-5.0.4.jar": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
         "javax.inject-1.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
-        "runescape-api-1.0.15-STABLE.jar": "7563adffee5da877727322a599b307274d76915c8db900f462149c6ddb85eb5b",
+        "runescape-api-1.0.15-STABLE.jar": "3d117b8068c3f452327f4bbcfe2354ccd67ebcca147629435abb8afbc0b137c2",
         "protobuf-javalite-3.21.12.jar": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40",
         "miglayout-3.7.4.jar": "f3bf5ab4041767da532e11e78a49a183da499d1a54ba539232d833b75f965667",
         "lwjgl-opengl-3.3.1-natives-windows-x86.jar": "683d8ad3d0d0977a6ea18b88a4cbe7e8fd4f06c1ab21babedab88309740bcc60",
@@ -165,9 +165,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runescape-api-1.0.15-STABLE.jar",
-            "size": 129465,
+            "size": 129506,
             "name": "runescape-api-1.0.15-STABLE.jar",
-            "hash": "7563adffee5da877727322a599b307274d76915c8db900f462149c6ddb85eb5b"
+            "hash": "3d117b8068c3f452327f4bbcfe2354ccd67ebcca147629435abb8afbc0b137c2"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-api-1.0.15-STABLE.jar",
@@ -177,9 +177,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.15-STABLE.jar",
-            "size": 95211,
+            "size": 95210,
             "name": "http-api-1.0.15-STABLE.jar",
-            "hash": "77d3233f36376a15fbf0f1c2728d3e24d040eb7576c12c79b91080b466a8954d"
+            "hash": "51a411a7c3847af5e74006c1b3c70757e980f5239e01775a874160dea1e14e6f"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.15-STABLE.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-client-1.0.15-STABLE.jar",
-            "size": 11653436,
+            "size": 11653433,
             "name": "runelite-client-1.0.15-STABLE.jar",
-            "hash": "1aaff7437d55a25573a7fdfcca37848460e6c41a3ee568200e1a8746d9d8ccbd"
+            "hash": "f80e19c14bf021e04f4a7367e7e8ddd5c7055e93eef28d30d00240113a55ba21"
         }
     ]
 }
