@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "ec517ea212caaffc5065c63b9f99e28f0b5a265a",
+    "buildCommit": "bc1beafec7edf909b2743e5fc272d0cd17bed5f9",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -31,12 +31,12 @@
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
         "lwjgl-3.3.1-natives-linux.jar": "22ef2afa31a1740a337ec9c6806c6b8d97e931a63e2c43270cbaf14fb3f6fc4e",
-        "runelite-api-1.0.17-STABLE.jar": "47046f6aa6062a83b3a00fe20c988bd2f61df1933b99baea80c336b5db2b1854",
+        "runelite-api-1.0.17-STABLE.jar": "fe29fa1d1aac483ca3452b89facb6933d75e3802a6078fef5c1559b49daeb34f",
         "commons-text-1.9.jar": "0812f284ac5dd0d617461d9a2ab6ac6811137f25122dfffd4788a4871e732d00",
         "lwjgl-3.3.1-natives-windows.jar": "093d13d62a6434bc656bf10a3b37e2530fd9af3b0bc20f8e9545be58659d1443",
         "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
-        "http-api-1.0.17-STABLE.jar": "6fe1acab8f0fdff89af4c7087d5dfee84208f40b060dea58630e96df096e5c2f",
+        "http-api-1.0.17-STABLE.jar": "e1a061692cd1f4cfe0b2e8e0dd93b05244910f1bab29c68ea3c7740449e8af4c",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "runelite-jshell-1.0.17-STABLE.jar": "45263cf73d03229aa00d27eaf03d29bb8f93cd700a6ce8bff10bef66b0d87c33",
@@ -79,7 +79,7 @@
         "annotations-22.0.0.jar": "9f45f5d5184d50a777742389a7a6e6a5b0bf90b316919774d8336f94776c31b2",
         "trident-1.5.00.jar": "3214e1c23d549d5d67c91da4da1ef33c5248470bb824f91cbe8f9e0beea59eef",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
-        "runelite-client-1.0.17-STABLE.jar": "2e1b71702dd4ed805597c05b840939ea89a3ceb30930002f523626e8eff15247",
+        "runelite-client-1.0.17-STABLE.jar": "9db2bc4d88bf9da0489f41e61286baf9b83e4564c011ccbfc2529a1861854f74",
         "lwjgl-3.3.1-natives-macos-arm64.jar": "7197e89ab80a2a2183b4ee925ccb44e572f0cb757a92776adf8265269200a36a",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-api-1.0.17-STABLE.jar",
-            "size": 1422008,
+            "size": 1422006,
             "name": "runelite-api-1.0.17-STABLE.jar",
-            "hash": "47046f6aa6062a83b3a00fe20c988bd2f61df1933b99baea80c336b5db2b1854"
+            "hash": "fe29fa1d1aac483ca3452b89facb6933d75e3802a6078fef5c1559b49daeb34f"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.17-STABLE.jar",
             "size": 95210,
             "name": "http-api-1.0.17-STABLE.jar",
-            "hash": "6fe1acab8f0fdff89af4c7087d5dfee84208f40b060dea58630e96df096e5c2f"
+            "hash": "e1a061692cd1f4cfe0b2e8e0dd93b05244910f1bab29c68ea3c7740449e8af4c"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.17-STABLE.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-client-1.0.17-STABLE.jar",
-            "size": 11739233,
+            "size": 11739234,
             "name": "runelite-client-1.0.17-STABLE.jar",
-            "hash": "2e1b71702dd4ed805597c05b840939ea89a3ceb30930002f523626e8eff15247"
+            "hash": "9db2bc4d88bf9da0489f41e61286baf9b83e4564c011ccbfc2529a1861854f74"
         }
     ]
 }
