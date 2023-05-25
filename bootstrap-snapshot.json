@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "ba6d7722fca4e74fbca634be3d216c155d1a0690",
+    "buildCommit": "c3006d824391446e53bbc922f0d9c33829beab12",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -27,7 +27,7 @@
     "dependencyHashes": {
         "aerogear-otp-java-1.0.0.jar": "161b18950d103fe0325b2dc897f0c121f663cac94b5742cd62b97a9b36f15b63",
         "logback-core-1.2.9.jar": "4a9ef7ed809b1fbc6992bf87d404087c247e7a9766e25bb84377b58ed5c9eb58",
-        "runelite-client-1.0.18-SNAPSHOT.jar": "7981e12fab00e02068631be8d70fc85af2abd440b0981eb96749fb1e1d3a3aed",
+        "runelite-client-1.0.18-SNAPSHOT.jar": "1d9093f48542b55c967a94a00788b8f5d2995faa5c48c87eaffbcc13c1a3a486",
         "lwjgl-opengl-3.3.1-natives-windows.jar": "851b9b593cac21e3af51dd4c303e8df3fe6a344a3f81d6b9bcc186e7e540bfda",
         "desktopsupport-0.6.0.jar": "45726bd470f9d2507fbb0c96a11cf8eca0f902069d1b256bb038f125822ea290",
         "java-semver-0.9.0.jar": "2218c73b40f9af98b570d084420c1b4a81332297bd7fc27ddd552e903be8e93c",
@@ -40,7 +40,7 @@
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
-        "http-api-1.0.18-SNAPSHOT.jar": "29e916b3446612b2eb3b133e0e4bad571e2c6d4c8e6816cd0d7e4b164c0c49bd",
+        "http-api-1.0.18-SNAPSHOT.jar": "3c06660e0d60c72f4b3a69dd2fe1cb0e86712d7afc3083b8320e9fe3c985e154",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
         "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
@@ -67,7 +67,7 @@
         "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
         "jopt-simple-5.0.4.jar": "df26cc58f235f477db07f753ba5a3ab243ebe5789d9f89ecf68dd62ea9a66c28",
         "javax.inject-1.jar": "91c77044a50c481636c32d916fd89c9118a72195390452c81065080f957de7ff",
-        "runelite-api-1.0.18-SNAPSHOT.jar": "a0661a5946ff39355db6677118b48e79146e355f0c44353af0907eef08f770fb",
+        "runelite-api-1.0.18-SNAPSHOT.jar": "322fb35b5460bc894cd048ab6ea2f1f30af1d0b01a5f27f0c46d42ba53cd6a97",
         "protobuf-javalite-3.21.12.jar": "cf678ab3fbc992f4b4654a86c03557c21904d635202b67688fcb2eca442c2d40",
         "miglayout-3.7.4.jar": "f3bf5ab4041767da532e11e78a49a183da499d1a54ba539232d833b75f965667",
         "lwjgl-opengl-3.3.1-natives-windows-x86.jar": "683d8ad3d0d0977a6ea18b88a4cbe7e8fd4f06c1ab21babedab88309740bcc60",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-api-1.0.18-SNAPSHOT.jar",
-            "size": 1425631,
+            "size": 1428441,
             "name": "runelite-api-1.0.18-SNAPSHOT.jar",
-            "hash": "a0661a5946ff39355db6677118b48e79146e355f0c44353af0907eef08f770fb"
+            "hash": "322fb35b5460bc894cd048ab6ea2f1f30af1d0b01a5f27f0c46d42ba53cd6a97"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/http-api-1.0.18-SNAPSHOT.jar",
-            "size": 95212,
+            "size": 95211,
             "name": "http-api-1.0.18-SNAPSHOT.jar",
-            "hash": "29e916b3446612b2eb3b133e0e4bad571e2c6d4c8e6816cd0d7e4b164c0c49bd"
+            "hash": "3c06660e0d60c72f4b3a69dd2fe1cb0e86712d7afc3083b8320e9fe3c985e154"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-jshell-1.0.18-SNAPSHOT.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-client-1.0.18-SNAPSHOT.jar",
-            "size": 11879551,
+            "size": 11878989,
             "name": "runelite-client-1.0.18-SNAPSHOT.jar",
-            "hash": "7981e12fab00e02068631be8d70fc85af2abd440b0981eb96749fb1e1d3a3aed"
+            "hash": "1d9093f48542b55c967a94a00788b8f5d2995faa5c48c87eaffbcc13c1a3a486"
         }
     ]
 }
