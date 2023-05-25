@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "06ccd1b7b90160690107cc08ad385ba381883d74",
+    "buildCommit": "83c28cff8fa4e44f3af7b0c15c0ffaa33ac6798b",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -36,7 +36,7 @@
         "failureaccess-1.0.1.jar": "a171ee4c734dd2da837e4b16be9df4661afab72a41adaf31eb84dfdaf936ca26",
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
-        "runelite-client-1.0.18-STABLE.jar": "62279ab3c083f0cca99753b67603ecea1489cac7a721a8c2328968a29776edf6",
+        "runelite-client-1.0.18-STABLE.jar": "a70a20a9f60b51ab00160cd39d199ce93e4ce3d1e7b4e09615cd767197305ea0",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
@@ -54,10 +54,10 @@
         "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
         "okio-jvm-2.8.0.jar": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8",
         "jocl-1.0-macos-arm64.jar": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
-        "http-api-1.0.18-STABLE.jar": "23ab855eb036f8ce86ff13b8fd1f48bf8612a7cee926678a55cd1b67ed809904",
+        "http-api-1.0.18-STABLE.jar": "9caa01abf6ba208e6f6da97df2935abafed2dee415179453f66888f9fd4ad87d",
         "checker-qual-3.8.0.jar": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6",
         "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
-        "runelite-api-1.0.18-STABLE.jar": "a0661a5946ff39355db6677118b48e79146e355f0c44353af0907eef08f770fb",
+        "runelite-api-1.0.18-STABLE.jar": "322fb35b5460bc894cd048ab6ea2f1f30af1d0b01a5f27f0c46d42ba53cd6a97",
         "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
         "lwjgl-opengl-3.3.1-natives-macos.jar": "711f29972888509262a957f1b3138bfa9b505519d11df6e5763d1c9a3f8b3c5d",
         "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
@@ -171,15 +171,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-api-1.0.18-STABLE.jar",
-            "size": 1425631,
+            "size": 1428441,
             "name": "runelite-api-1.0.18-STABLE.jar",
-            "hash": "a0661a5946ff39355db6677118b48e79146e355f0c44353af0907eef08f770fb"
+            "hash": "322fb35b5460bc894cd048ab6ea2f1f30af1d0b01a5f27f0c46d42ba53cd6a97"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.18-STABLE.jar",
             "size": 95211,
             "name": "http-api-1.0.18-STABLE.jar",
-            "hash": "23ab855eb036f8ce86ff13b8fd1f48bf8612a7cee926678a55cd1b67ed809904"
+            "hash": "9caa01abf6ba208e6f6da97df2935abafed2dee415179453f66888f9fd4ad87d"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.18-STABLE.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-client-1.0.18-STABLE.jar",
-            "size": 11879541,
+            "size": 11878990,
             "name": "runelite-client-1.0.18-STABLE.jar",
-            "hash": "62279ab3c083f0cca99753b67603ecea1489cac7a721a8c2328968a29776edf6"
+            "hash": "a70a20a9f60b51ab00160cd39d199ce93e4ce3d1e7b4e09615cd767197305ea0"
         }
     ]
 }
