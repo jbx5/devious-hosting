@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "07e4492e5b1ea144753f4740c3e3d5adee7d91ee",
+    "buildCommit": "c4608931868471c9350053c93ab476c4f1e4c164",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -38,8 +38,8 @@
         "gson-2.8.5.jar": "233a0149fc365c9f6edbd683cfe266b19bdc773be98eabdaf6b3c924b48e7d81",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "http-api-1.0.19-EXPERIMENTAL.jar": "ad53fb2a98a90162e81b9d51dc4fadc818a277341a5079a967c97ed2ba6af62e",
-        "runelite-client-1.0.19-EXPERIMENTAL.jar": "660297d72045cf64e32b6f739a838229a334c8a3aa6e0005fd35085ec786063e",
+        "http-api-1.0.19-EXPERIMENTAL.jar": "a014538ed442e87f9c98155d45b7db085467980b03c47504558adc9fbb662c48",
+        "runelite-client-1.0.19-EXPERIMENTAL.jar": "96f77c29dc7a0784d1d0ec8149feb56d91923a65c89b148bb073224e03597750",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "slf4j-api-1.7.32.jar": "3624f8474c1af46d75f98bc097d7864a323c81b3808aa43689a6e1c601c027be",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
@@ -84,7 +84,7 @@
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "lwjgl-opengl-3.3.1.jar": "e436d2144f3a36fff772fd64233316809b795f390defd4d55660fc686e7c2834",
-        "runescape-api-1.0.19-EXPERIMENTAL.jar": "9fe3e9bb758b1fb6d4aa488018102f93696cb5490ed28b418c1dcafce4263264",
+        "runescape-api-1.0.19-EXPERIMENTAL.jar": "8c9e3f67a2434a2476c7de8a367c09240e7479b9e8a1408a56aed2ab83b65e3a",
         "lwjgl-opengl-3.3.1-natives-macos-arm64.jar": "dbd110044eae8adbca8e3c7a730529a351559e74cea887bb3cd6ef0dc016f295",
         "lwjgl-3.3.1-natives-windows-x86.jar": "e90c1f9cf5701aeef2982ebf0905a2b991f4622b8a7f8250eaf0873b5a0a0223",
         "kotlin-stdlib-common-1.6.21.jar": "183bec59cd9f3a14957b190e8c879cf1194bd1f106b0a7b6e1cbb8790d242363",
@@ -165,9 +165,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runescape-api-1.0.19-EXPERIMENTAL.jar",
-            "size": 130139,
+            "size": 130161,
             "name": "runescape-api-1.0.19-EXPERIMENTAL.jar",
-            "hash": "9fe3e9bb758b1fb6d4aa488018102f93696cb5490ed28b418c1dcafce4263264"
+            "hash": "8c9e3f67a2434a2476c7de8a367c09240e7479b9e8a1408a56aed2ab83b65e3a"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-api-1.0.19-EXPERIMENTAL.jar",
@@ -177,9 +177,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.19-EXPERIMENTAL.jar",
-            "size": 95210,
+            "size": 95211,
             "name": "http-api-1.0.19-EXPERIMENTAL.jar",
-            "hash": "ad53fb2a98a90162e81b9d51dc4fadc818a277341a5079a967c97ed2ba6af62e"
+            "hash": "a014538ed442e87f9c98155d45b7db085467980b03c47504558adc9fbb662c48"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.19-EXPERIMENTAL.jar",
@@ -585,9 +585,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "size": 11823315,
+            "size": 11822381,
             "name": "runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "hash": "660297d72045cf64e32b6f739a838229a334c8a3aa6e0005fd35085ec786063e"
+            "hash": "96f77c29dc7a0784d1d0ec8149feb56d91923a65c89b148bb073224e03597750"
         }
     ]
 }
