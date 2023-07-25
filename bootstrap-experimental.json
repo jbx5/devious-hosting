@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "9b427729d648a90941f3fb54c69b0724ecefd726",
+    "buildCommit": "7b223c4e935869645955d14e853227a35cae1ce6",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -38,8 +38,8 @@
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "http-api-1.0.19-EXPERIMENTAL.jar": "222c69e5261f76bc4c3e8368b16929a1d8b6aee560e44d3cccda024205ec3288",
-        "runelite-client-1.0.19-EXPERIMENTAL.jar": "d2c257bdbdc59d068ad8ba7d9afb0d466ba302a18a65e7a02c0c64b13991a6c9",
+        "http-api-1.0.19-EXPERIMENTAL.jar": "38e600eb14760868ce49259dbd7d6a9c829a4861ed96181e4de5a3d3a48329ea",
+        "runelite-client-1.0.19-EXPERIMENTAL.jar": "f458c6a30c67ac974f88cc80a95edfa386d510d7b00a06def2cfdb7da54eb772",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
@@ -182,7 +182,7 @@
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.19-EXPERIMENTAL.jar",
             "size": 95240,
             "name": "http-api-1.0.19-EXPERIMENTAL.jar",
-            "hash": "222c69e5261f76bc4c3e8368b16929a1d8b6aee560e44d3cccda024205ec3288"
+            "hash": "38e600eb14760868ce49259dbd7d6a9c829a4861ed96181e4de5a3d3a48329ea"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.19-EXPERIMENTAL.jar",
@@ -606,9 +606,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "size": 11892380,
+            "size": 11892341,
             "name": "runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "hash": "d2c257bdbdc59d068ad8ba7d9afb0d466ba302a18a65e7a02c0c64b13991a6c9"
+            "hash": "f458c6a30c67ac974f88cc80a95edfa386d510d7b00a06def2cfdb7da54eb772"
         }
     ]
 }
