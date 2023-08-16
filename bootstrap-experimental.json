@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "5bd0fb22c92b1f872fce064a1bed5173fdb7a62a",
+    "buildCommit": "6ce57e4c4e7dd74ef6597d740c2410f27e94180f",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -38,8 +38,8 @@
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "http-api-1.0.19-EXPERIMENTAL.jar": "e45fcd3a56ae3741b9618e1800f8d8ce23e72b33b1e85290ed1959d8cccd7a77",
-        "runelite-client-1.0.19-EXPERIMENTAL.jar": "c1213760718171e74d8e8bfd30275c929448da268f9b7e210b2b143cab113fd4",
+        "http-api-1.0.19-EXPERIMENTAL.jar": "f8e82161bb35b2b817c6cce2672b469f30adc749b6b5f52da1de07c8093dccce",
+        "runelite-client-1.0.19-EXPERIMENTAL.jar": "dd5935fdb3834c340998ccba23317f22c19923ee65c1d46180e49d651173b96c",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
@@ -89,7 +89,7 @@
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "lwjgl-opengl-3.3.2-natives-macos.jar": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d",
-        "runescape-api-1.0.19-EXPERIMENTAL.jar": "4cbcc570254778fc07cea72454b2efc8700c9e81f542d40e25249aa7e448508a",
+        "runescape-api-1.0.19-EXPERIMENTAL.jar": "6321799d040de93b17be6c9c3da4320fb40b3566a591c4b3d200c88486dc58f6",
         "lwjgl-opengl-3.3.2-natives-windows.jar": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd",
         "kotlin-stdlib-common-1.6.21.jar": "183bec59cd9f3a14957b190e8c879cf1194bd1f106b0a7b6e1cbb8790d242363",
         "jgroups-5.2.2.Final.jar": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e",
@@ -168,9 +168,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runescape-api-1.0.19-EXPERIMENTAL.jar",
-            "size": 128070,
+            "size": 131669,
             "name": "runescape-api-1.0.19-EXPERIMENTAL.jar",
-            "hash": "4cbcc570254778fc07cea72454b2efc8700c9e81f542d40e25249aa7e448508a"
+            "hash": "6321799d040de93b17be6c9c3da4320fb40b3566a591c4b3d200c88486dc58f6"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-api-1.0.19-EXPERIMENTAL.jar",
@@ -180,9 +180,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.19-EXPERIMENTAL.jar",
-            "size": 95241,
+            "size": 95240,
             "name": "http-api-1.0.19-EXPERIMENTAL.jar",
-            "hash": "e45fcd3a56ae3741b9618e1800f8d8ce23e72b33b1e85290ed1959d8cccd7a77"
+            "hash": "f8e82161bb35b2b817c6cce2672b469f30adc749b6b5f52da1de07c8093dccce"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.19-EXPERIMENTAL.jar",
@@ -606,9 +606,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "size": 11975078,
+            "size": 11977167,
             "name": "runelite-client-1.0.19-EXPERIMENTAL.jar",
-            "hash": "c1213760718171e74d8e8bfd30275c929448da268f9b7e210b2b143cab113fd4"
+            "hash": "dd5935fdb3834c340998ccba23317f22c19923ee65c1d46180e49d651173b96c"
         }
     ]
 }
