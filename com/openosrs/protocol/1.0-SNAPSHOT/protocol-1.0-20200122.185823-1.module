@@ -1,0 +1,98 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "protocol",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "a6apago6xbe37g3mkn6bp5rxzu"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "protocol-1.0-SNAPSHOT.jar",
+          "url": "protocol-1.0-20200122.185823-1.jar",
+          "size": 17447,
+          "sha512": "5f83df6eb1cd0ce0bb103a3cff2a9742ada93234942e0a77d232821053cfe05e9e4ec3f3547a609521bffc717f3421e08668d7f08bdf358585eb2d067817cc9a",
+          "sha256": "c32a7007017ae1867cba3c8fd4c245c27cc858f7b05da5a11bc5fe3a866079e",
+          "sha1": "16080c206d1a05e612df0351217d604585534bc9",
+          "md5": "9761f9fd5ea97f84308a89e4bf5c6533"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-all",
+          "version": {
+            "requires": "4.1.44.Final"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "protocol-api",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "cache",
+          "version": {
+            "requires": "187.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-1.0-SNAPSHOT.jar",
+          "url": "protocol-1.0-20200122.185823-1.jar",
+          "size": 17447,
+          "sha512": "5f83df6eb1cd0ce0bb103a3cff2a9742ada93234942e0a77d232821053cfe05e9e4ec3f3547a609521bffc717f3421e08668d7f08bdf358585eb2d067817cc9a",
+          "sha256": "c32a7007017ae1867cba3c8fd4c245c27cc858f7b05da5a11bc5fe3a866079e",
+          "sha1": "16080c206d1a05e612df0351217d604585534bc9",
+          "md5": "9761f9fd5ea97f84308a89e4bf5c6533"
+        }
+      ]
+    }
+  ]
+}

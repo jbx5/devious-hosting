@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.openosrs</groupId>
+  <artifactId>runescape-api</artifactId>
+  <versioning>
+    <latest>1.5.39-SNAPSHOT</latest>
+    <versions>
+      <version>1.5.39-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20191104011949</lastUpdated>
+  </versioning>
+</metadata>

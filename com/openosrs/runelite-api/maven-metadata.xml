@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.openosrs</groupId>
+  <artifactId>runelite-api</artifactId>
+  <versioning>
+    <latest>1.6.3-SNAPSHOT</latest>
+    <versions>
+      <version>1.6.3-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200122103844</lastUpdated>
+  </versioning>
+</metadata>

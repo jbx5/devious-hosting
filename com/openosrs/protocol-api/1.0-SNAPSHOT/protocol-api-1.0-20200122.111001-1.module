@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "protocol-api",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "wfs5llukcva33nto7h5cmratz4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "protocol-api-1.0-SNAPSHOT.jar",
+          "url": "protocol-api-1.0-20200122.111001-1.jar",
+          "size": 10250,
+          "sha512": "d965c1a529f52d9e6d70870329a11d28cefc52d51df4f5d7aeaed3711f670343ed21399a8c3efa91ed91952ec74c324df4a13ada99695d48d19c188897f20c9",
+          "sha256": "2b33d421e0c188a0289c5f04db75debe0ba1a8a53010f49f7277a72a3ba01454",
+          "sha1": "fe8921c41af624667c2cf64341bc030b579d803d",
+          "md5": "507ca03c58669b0c7f3141a0e47d2ab4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "runelite-api",
+          "version": {
+            "requires": "1.6.3-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "protocol-api-1.0-SNAPSHOT.jar",
+          "url": "protocol-api-1.0-20200122.111001-1.jar",
+          "size": 10250,
+          "sha512": "d965c1a529f52d9e6d70870329a11d28cefc52d51df4f5d7aeaed3711f670343ed21399a8c3efa91ed91952ec74c324df4a13ada99695d48d19c188897f20c9",
+          "sha256": "2b33d421e0c188a0289c5f04db75debe0ba1a8a53010f49f7277a72a3ba01454",
+          "sha1": "fe8921c41af624667c2cf64341bc030b579d803d",
+          "md5": "507ca03c58669b0c7f3141a0e47d2ab4"
+        }
+      ]
+    }
+  ]
+}

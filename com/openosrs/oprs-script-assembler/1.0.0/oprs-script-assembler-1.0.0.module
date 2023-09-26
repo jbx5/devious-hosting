@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "oprs-script-assembler",
+    "version": "1.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "oprs-script-assembler-1.0.0.jar",
+          "url": "oprs-script-assembler-1.0.0.jar",
+          "size": 3018,
+          "sha512": "79921997792b72d7c314116ecc45ae011163ef54fd5de3ba82bec3cf0b209a256eaaf13b33cbd0f2db1ccbb30d32c7a3f50ea059dd01c3ca5f3eb3ee9f615fb7",
+          "sha256": "7b32072ad2d26c4b3c0d0f254942beaa2bccedb6a721d6aa0962c3b81381d547",
+          "sha1": "d3e62ef3ecfaa1404c89fa5804535dd515b017bb",
+          "md5": "7bf1f082c51ffb9b381d8696ab11132a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.openosrs",
+          "module": "cache",
+          "version": {
+            "requires": "4.25.0"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "runelite-api",
+          "version": {
+            "requires": "4.25.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "30.1.1-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-nop",
+          "version": {
+            "requires": "1.7.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "oprs-script-assembler-1.0.0.jar",
+          "url": "oprs-script-assembler-1.0.0.jar",
+          "size": 3018,
+          "sha512": "79921997792b72d7c314116ecc45ae011163ef54fd5de3ba82bec3cf0b209a256eaaf13b33cbd0f2db1ccbb30d32c7a3f50ea059dd01c3ca5f3eb3ee9f615fb7",
+          "sha256": "7b32072ad2d26c4b3c0d0f254942beaa2bccedb6a721d6aa0962c3b81381d547",
+          "sha1": "d3e62ef3ecfaa1404c89fa5804535dd515b017bb",
+          "md5": "7bf1f082c51ffb9b381d8696ab11132a"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "oprs-script-assembler-1.0.0-all.jar",
+          "url": "oprs-script-assembler-1.0.0-all.jar",
+          "size": 1898343,
+          "sha512": "7fd1cfd346b0a6b31cb1b4aa14fbc647badfab27c0ef63ab2ef611df55499f7c9241a85876c8eb87cefbbb26b04fdb5d52d6c7c0418f41561960d86ad471692b",
+          "sha256": "1ae836f0c0cd579567cf808d2b1997d644b8c5b98136f9eb55688694deed21e6",
+          "sha1": "a015da86b78d8ca56c8684844663685c1071b87b",
+          "md5": "f1197cbd41fbbe0fa18203f4768a5358"
+        }
+      ]
+    }
+  ]
+}

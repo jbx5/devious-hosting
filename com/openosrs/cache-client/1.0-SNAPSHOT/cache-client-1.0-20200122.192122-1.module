@@ -1,0 +1,105 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "cache-client",
+    "version": "1.0-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "w6ozu4vf75d5ln4h353wega33i"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "cache-client-1.0-SNAPSHOT.jar",
+          "url": "cache-client-1.0-20200122.192122-1.jar",
+          "size": 16330,
+          "sha512": "9c01ffef5419600176b51968ead5bd4cb125569334d65359c0a34d15cf0ecd72c7edf3abcd44d42ba19abb023527b60afec7fb70b61a8eef304a75c26afe3d53",
+          "sha256": "8bc1ca8750a1a1e3f0989ba642074ebca8c00008ea397e98355ca772d239d34c",
+          "sha1": "dd5ffc3e19cdec1590c2bada3600c86d6867d816",
+          "md5": "93b3a7e04bfbd570c872b92d8a711d4d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "28.2-jre"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "1.7.30"
+          }
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-all",
+          "version": {
+            "requires": "4.1.44.Final"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "protocol",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "protocol-api",
+          "version": {
+            "requires": "1.0-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "cache",
+          "version": {
+            "requires": "187.0-SNAPSHOT"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "cache-client-1.0-SNAPSHOT.jar",
+          "url": "cache-client-1.0-20200122.192122-1.jar",
+          "size": 16330,
+          "sha512": "9c01ffef5419600176b51968ead5bd4cb125569334d65359c0a34d15cf0ecd72c7edf3abcd44d42ba19abb023527b60afec7fb70b61a8eef304a75c26afe3d53",
+          "sha256": "8bc1ca8750a1a1e3f0989ba642074ebca8c00008ea397e98355ca772d239d34c",
+          "sha1": "dd5ffc3e19cdec1590c2bada3600c86d6867d816",
+          "md5": "93b3a7e04bfbd570c872b92d8a711d4d"
+        }
+      ]
+    }
+  ]
+}

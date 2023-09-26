@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.openosrs",
+    "module": "injector-plugin",
+    "version": "1.1.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "iepwcvu4krfzzhruvo2e3gnkca"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "injector-plugin-1.1.6.jar",
+          "url": "injector-plugin-1.1.6.jar",
+          "size": 103898,
+          "sha512": "6e28972e11a84466be19062de1368f53493c02c00ff4b2782f86a35e401864830423062245abe24668bbe2257ff4270544dc699cd7ebfc58e7190dd80eb47d98",
+          "sha256": "9760ba7c97785f817cdfd4ce7f0ffa25b355c7504565adfef20d204d8a5eb3f6",
+          "sha1": "859f12220c236dae5ff9165cc445c6ec277265a2",
+          "md5": "21d6ce43be25c6e6ba1e2685cf2874f1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 11,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.localToProject": "public",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.ow2.asm",
+          "module": "asm",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.ow2.asm",
+          "module": "asm-util",
+          "version": {
+            "requires": "8.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "19.0.0"
+          }
+        },
+        {
+          "group": "com.google.guava",
+          "module": "guava",
+          "version": {
+            "requires": "29.0-jre"
+          }
+        },
+        {
+          "group": "com.openosrs",
+          "module": "deobfuscator",
+          "version": {
+            "requires": "3.4.5"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "injector-plugin-1.1.6.jar",
+          "url": "injector-plugin-1.1.6.jar",
+          "size": 103898,
+          "sha512": "6e28972e11a84466be19062de1368f53493c02c00ff4b2782f86a35e401864830423062245abe24668bbe2257ff4270544dc699cd7ebfc58e7190dd80eb47d98",
+          "sha256": "9760ba7c97785f817cdfd4ce7f0ffa25b355c7504565adfef20d204d8a5eb3f6",
+          "sha1": "859f12220c236dae5ff9165cc445c6ec277265a2",
+          "md5": "21d6ce43be25c6e6ba1e2685cf2874f1"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>com.openosrs.rxrelay3</groupId>
+  <artifactId>rxrelay</artifactId>
+  <versioning>
+    <versions>
+      <version>3.0.0-SNAPSHOT</version>
+      <version>3.0.1-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200502133119</lastUpdated>
+  </versioning>
+</metadata>
