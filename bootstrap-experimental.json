@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "47af8a4377d72c19250209787d3d59969d84897a",
+    "buildCommit": "5666edc4b7bec39c049dcca8bffb474a65aab3ee",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -36,9 +36,9 @@
         "lwjgl-opengl-3.3.2-natives-windows-arm64.jar": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
-        "http-api-1.0.20-EXPERIMENTAL.jar": "0b23f9191bc64d7598c2590dd9a4906a8cc0b501e88618aeef73f345b461521b",
+        "http-api-1.0.20-EXPERIMENTAL.jar": "4f717baaa5692fe98accc2de8c04db53b04e0f8fbee89b68f65c572d32e8820d",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "runelite-api-1.0.20-EXPERIMENTAL.jar": "13fa3aa5067fa36ae9cb4d03f29bbc4647d7c027a63ae3cc2beb84cf623f09a7",
+        "runelite-api-1.0.20-EXPERIMENTAL.jar": "dd5a7f3ab5521fa9e3e9e84ff68963e877c9270269ea22373f85bb7f9ff237ab",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
@@ -62,7 +62,7 @@
         "lwjgl-opengl-3.3.2-natives-macos-arm64.jar": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6",
         "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
         "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
-        "runelite-client-1.0.20-EXPERIMENTAL.jar": "86d15fb39db422135662c413685e4d4cf27dfb719b6e7f9c4c5fe79ec49d6857",
+        "runelite-client-1.0.20-EXPERIMENTAL.jar": "026877aad6a6651a400102a39d482f72832a31a1bfe20c79350c0c4c8c1fbf25",
         "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
         "substance-8.0.02.jar": "0467d25f408428824d5c9c09ec60ee1f0bc341d9bf48971a77fd14939a826c83",
         "commons-csv-1.9.0.jar": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc",
@@ -174,15 +174,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-api-1.0.20-EXPERIMENTAL.jar",
-            "size": 1471848,
+            "size": 1472163,
             "name": "runelite-api-1.0.20-EXPERIMENTAL.jar",
-            "hash": "13fa3aa5067fa36ae9cb4d03f29bbc4647d7c027a63ae3cc2beb84cf623f09a7"
+            "hash": "dd5a7f3ab5521fa9e3e9e84ff68963e877c9270269ea22373f85bb7f9ff237ab"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.20-EXPERIMENTAL.jar",
-            "size": 95241,
+            "size": 95240,
             "name": "http-api-1.0.20-EXPERIMENTAL.jar",
-            "hash": "0b23f9191bc64d7598c2590dd9a4906a8cc0b501e88618aeef73f345b461521b"
+            "hash": "4f717baaa5692fe98accc2de8c04db53b04e0f8fbee89b68f65c572d32e8820d"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.20-EXPERIMENTAL.jar",
@@ -606,9 +606,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "size": 11939487,
+            "size": 11943556,
             "name": "runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "hash": "86d15fb39db422135662c413685e4d4cf27dfb719b6e7f9c4c5fe79ec49d6857"
+            "hash": "026877aad6a6651a400102a39d482f72832a31a1bfe20c79350c0c4c8c1fbf25"
         }
     ]
 }
