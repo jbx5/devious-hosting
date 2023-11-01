@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "50ec8b8f81cdccb97af3560bbb46b82f98ae939d",
+    "buildCommit": "c75ccbbaca73acbf13219eea1b5ed6fcaa1e3299",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -44,7 +44,7 @@
         "lwjgl-opengl-3.3.2-natives-linux.jar": "8956bca64d2851dc14ec6bfbfc55ce35fdff89270b5f2a3c9f70aea77f6d1e17",
         "socket.io-client-1.0.0.jar": "5b048755cef24079e1ec1795f6ed0935422ed887786192811c2008bda0a2caf2",
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
-        "runelite-api-1.0.20-STABLE.jar": "fdc303a0360825f5cff1b0584a381b84ea1b41f3eca4977d8ca3891c62dab8b7",
+        "runelite-api-1.0.20-STABLE.jar": "dbab30234989abd39cdf0c20501e679b862dfa4584d67be36ce5e23832f615fd",
         "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
         "lwjgl-opencl-3.3.2.jar": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a",
         "commons-io-2.8.0.jar": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074",
@@ -83,13 +83,13 @@
         "lwjgl-opengl-3.3.2.jar": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "lwjgl-3.3.2-natives-linux.jar": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400",
-        "runelite-client-1.0.20-STABLE.jar": "630d5b20e6d88ab955cf6f6bbc784743fae73e024714aea9cee14c7c53c8088d",
+        "runelite-client-1.0.20-STABLE.jar": "30c0464b1563d72d0467ad053e9e0827a2943d49b2878803d2340c320483f5ef",
         "lwjgl-3.3.2-natives-windows.jar": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "lwjgl-opengl-3.3.2-natives-macos.jar": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d",
         "lwjgl-opengl-3.3.2-natives-windows.jar": "0275a42f91c6bc5f08bdc1f7c7e263058cc99dbed7c710a025e4ad175e9a0edd",
-        "http-api-1.0.20-STABLE.jar": "136bbf02e7f0068bd758708baa42f3126f53f9663d3f5e525bd4bfccd8cda5c0",
+        "http-api-1.0.20-STABLE.jar": "7906f95c685acd0c8cf72aa04f0921cd08ddeac1a13571fc5e5c1dc7782ac93c",
         "runescape-api-1.0.20-STABLE.jar": "32ab6a2023714094d9a18801f12c2c437a1231a5a0bb5b4c5663f20d5553a440",
         "kotlin-stdlib-common-1.6.21.jar": "183bec59cd9f3a14957b190e8c879cf1194bd1f106b0a7b6e1cbb8790d242363",
         "jgroups-5.2.2.Final.jar": "cfee5822e342c4018b9c71acc6aac0e23910f1b04725a0e44fe9f94ef2dc3f1e",
@@ -174,15 +174,15 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-api-1.0.20-STABLE.jar",
-            "size": 1478893,
+            "size": 1479146,
             "name": "runelite-api-1.0.20-STABLE.jar",
-            "hash": "fdc303a0360825f5cff1b0584a381b84ea1b41f3eca4977d8ca3891c62dab8b7"
+            "hash": "dbab30234989abd39cdf0c20501e679b862dfa4584d67be36ce5e23832f615fd"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/http-api-1.0.20-STABLE.jar",
-            "size": 95241,
+            "size": 95240,
             "name": "http-api-1.0.20-STABLE.jar",
-            "hash": "136bbf02e7f0068bd758708baa42f3126f53f9663d3f5e525bd4bfccd8cda5c0"
+            "hash": "7906f95c685acd0c8cf72aa04f0921cd08ddeac1a13571fc5e5c1dc7782ac93c"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-jshell-1.0.20-STABLE.jar",
@@ -606,9 +606,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/stable/runelite-client-1.0.20-STABLE.jar",
-            "size": 11958931,
+            "size": 11960065,
             "name": "runelite-client-1.0.20-STABLE.jar",
-            "hash": "630d5b20e6d88ab955cf6f6bbc784743fae73e024714aea9cee14c7c53c8088d"
+            "hash": "30c0464b1563d72d0467ad053e9e0827a2943d49b2878803d2340c320483f5ef"
         }
     ]
 }
