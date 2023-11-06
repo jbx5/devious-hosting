@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "30daf5b73eb8191076b64fecd6088fc6a4891fb9",
+    "buildCommit": "1d43500900744de6098882ceb9da52b76738b421",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -38,7 +38,7 @@
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
-        "http-api-1.0.20-SNAPSHOT.jar": "4e3992da54c3de99894c9d67543cbb6ed1cef5ec1eecb13e376db11d23e318a1",
+        "http-api-1.0.20-SNAPSHOT.jar": "993391ab1e52db22844aff8cb4d5c5ac5133800e334d0ed8515e971af06525b9",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
@@ -55,7 +55,7 @@
         "guice-5.0.1.jar": "3bae18be3e0f0940375d1ebdd2f3b84d87ae16026ae663b2f5d4667fe5b04036",
         "logback-classic-1.2.9.jar": "ad745cc243805800d1ebbf5b7deba03b37c95885e6bce71335a73f7d6d0f14ee",
         "jna-5.9.0.jar": "eafcc780b445434d3c5ae7fa2fb6665de1a7560d537d2c408a8e80cd14d27161",
-        "runescape-api-1.0.20-SNAPSHOT.jar": "32ab6a2023714094d9a18801f12c2c437a1231a5a0bb5b4c5663f20d5553a440",
+        "runescape-api-1.0.20-SNAPSHOT.jar": "c55e98bc7bef2fc9c7b415cff60b2d07dcb7ba5858c401c1fa0b61ff110e8905",
         "okio-jvm-2.8.0.jar": "4496b06e73982fcdd8a5393f46e5df2ce2fa4465df5895454cac68a32f09bbc8",
         "jocl-1.0-macos-arm64.jar": "4fb96241f95970bd329ef03af1e9c94a9114e91a571523bcaf2af66bee2f2bfa",
         "checker-qual-3.8.0.jar": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6",
@@ -86,7 +86,7 @@
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "lwjgl-3.3.2-natives-linux.jar": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400",
         "lwjgl-3.3.2-natives-windows.jar": "ebc65354b64a33659cc642446dc15c6d62a4bd0ae15c9a6a4a3adbcd71f1f690",
-        "runelite-client-1.0.20-SNAPSHOT.jar": "1c5662cb6aeb65227431858c03595bb24409ea0269522e3cf48edefeb7fefff0",
+        "runelite-client-1.0.20-SNAPSHOT.jar": "f7a577646711f0dc23867aad73a8d43f355b34de7011e9d4a2fffebfce8a5c82",
         "aopalliance-1.0.jar": "0addec670fedcd3f113c5c8091d783280d23f75e3acb841b61a9cdb079376a08",
         "jnativehook-2.2.2.jar": "2c7904423bc680af02d9ea9557ae233c35199e302d072773a9d0304b568acd41",
         "lwjgl-opengl-3.3.2-natives-macos.jar": "0c6a78c4e696deaddefd8346b4c13883704b36a890003075a33ccba2d1a13c2d",
@@ -168,9 +168,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runescape-api-1.0.20-SNAPSHOT.jar",
-            "size": 132915,
+            "size": 132975,
             "name": "runescape-api-1.0.20-SNAPSHOT.jar",
-            "hash": "32ab6a2023714094d9a18801f12c2c437a1231a5a0bb5b4c5663f20d5553a440"
+            "hash": "c55e98bc7bef2fc9c7b415cff60b2d07dcb7ba5858c401c1fa0b61ff110e8905"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-api-1.0.20-SNAPSHOT.jar",
@@ -180,9 +180,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/http-api-1.0.20-SNAPSHOT.jar",
-            "size": 95241,
+            "size": 95240,
             "name": "http-api-1.0.20-SNAPSHOT.jar",
-            "hash": "4e3992da54c3de99894c9d67543cbb6ed1cef5ec1eecb13e376db11d23e318a1"
+            "hash": "993391ab1e52db22844aff8cb4d5c5ac5133800e334d0ed8515e971af06525b9"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-jshell-1.0.20-SNAPSHOT.jar",
@@ -606,9 +606,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/snapshot/runelite-client-1.0.20-SNAPSHOT.jar",
-            "size": 11960094,
+            "size": 11953773,
             "name": "runelite-client-1.0.20-SNAPSHOT.jar",
-            "hash": "1c5662cb6aeb65227431858c03595bb24409ea0269522e3cf48edefeb7fefff0"
+            "hash": "f7a577646711f0dc23867aad73a8d43f355b34de7011e9d4a2fffebfce8a5c82"
         }
     ]
 }
