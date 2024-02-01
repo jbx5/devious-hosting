@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "3ba8083514667288ecde13d7ecc4387067f3fa13",
+    "buildCommit": "a31f812ec056bf73d14bb48c553e747afba45d2f",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -36,7 +36,7 @@
         "lwjgl-opengl-3.3.2-natives-windows-arm64.jar": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
-        "http-api-1.0.20-EXPERIMENTAL.jar": "b43d0739494a36d97beaf96b21fc5e939c2b4f717e1987fb18bcec1594445b91",
+        "http-api-1.0.20-EXPERIMENTAL.jar": "208bde21b015ade1f85b2432cd32088655aec8ae2c8b2cbbcfea7935ba30b693",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "runelite-api-1.0.20-EXPERIMENTAL.jar": "cac2ccfe6f23440308c49451ff63b95890e331dccf67954dee1519faf484ca68",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
@@ -48,7 +48,7 @@
         "discord-1.4.jar": "6409723fd13496386dfb1335a9794dc0919db6132522f2b7486d6734fc5df6e5",
         "jocl-1.0-macos-x64.jar": "2bcb853daff68fe4faed28f871624a428c5db90f9e3ecb4286df8aeca4b93b38",
         "lwjgl-opencl-3.3.2.jar": "da0392abcea5121f5edd9042012600584ac628f4a18fcf5c1bce60f3f9f6a33a",
-        "runescape-api-1.0.20-EXPERIMENTAL.jar": "7a7efc2e504781b5b4ceb5c13baa2b300c56d507f7171b6af4f35f70433b138c",
+        "runescape-api-1.0.20-EXPERIMENTAL.jar": "4148cee413affcbcfea98c942e42c2070a7bdec7bb5f6eee21999c4452b82ba2",
         "commons-io-2.8.0.jar": "02f291e5d1243dc143496e3cbbb40a1ced47aa58f2d633d3e38780cd068d5074",
         "reactive-streams-1.0.3.jar": "1dee0481072d19c929b623e155e14d2f6085dc011529a0a0dbefc84cf571d865",
         "rxjava-3.1.2.jar": "8d784075bec0b7c55042c109a4de8923b3b6d2ebd2e00912d518f07240f9c23a",
@@ -63,7 +63,7 @@
         "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
         "flatlaf-3.2.5-rl2.jar": "5a08040e3e5c94fa67b9c1bbefcb64928a356f5d9b500911a1442d726d252a60",
         "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
-        "runelite-client-1.0.20-EXPERIMENTAL.jar": "3dd154456635b814265cc0865953d7e6c00834abb91d27aa24bb457a215368a2",
+        "runelite-client-1.0.20-EXPERIMENTAL.jar": "89227c3b0670d7d46f1a225a53938e3017f061ae063ca2ac9454a4bd0a9d9bd9",
         "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
         "flatlaf-extras-3.2.5-rl2.jar": "cb003b0f7975f4983a424b78915a51e3b3f548db238740c083296155b1774355",
         "commons-csv-1.9.0.jar": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc",
@@ -169,9 +169,9 @@
     "artifacts": [
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runescape-api-1.0.20-EXPERIMENTAL.jar",
-            "size": 133187,
+            "size": 133200,
             "name": "runescape-api-1.0.20-EXPERIMENTAL.jar",
-            "hash": "7a7efc2e504781b5b4ceb5c13baa2b300c56d507f7171b6af4f35f70433b138c"
+            "hash": "4148cee413affcbcfea98c942e42c2070a7bdec7bb5f6eee21999c4452b82ba2"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-api-1.0.20-EXPERIMENTAL.jar",
@@ -183,7 +183,7 @@
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.20-EXPERIMENTAL.jar",
             "size": 95240,
             "name": "http-api-1.0.20-EXPERIMENTAL.jar",
-            "hash": "b43d0739494a36d97beaf96b21fc5e939c2b4f717e1987fb18bcec1594445b91"
+            "hash": "208bde21b015ade1f85b2432cd32088655aec8ae2c8b2cbbcfea7935ba30b693"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.20-EXPERIMENTAL.jar",
@@ -613,9 +613,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "size": 12001254,
+            "size": 12001418,
             "name": "runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "hash": "3dd154456635b814265cc0865953d7e6c00834abb91d27aa24bb457a215368a2"
+            "hash": "89227c3b0670d7d46f1a225a53938e3017f061ae063ca2ac9454a4bd0a9d9bd9"
         }
     ]
 }
