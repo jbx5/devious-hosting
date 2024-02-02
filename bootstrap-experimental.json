@@ -16,7 +16,7 @@
         "-XX:CompileThreshold=1500",
         "--add-opens=java.desktop/sun.awt=ALL-UNNAMED"
     ],
-    "buildCommit": "a31f812ec056bf73d14bb48c553e747afba45d2f",
+    "buildCommit": "0269cb51dcbb9481105fe7c71267a5d8bbc922c6",
     "launcherJvm11Arguments": [
         "-XX:+DisableAttachMechanism",
         "-Drunelite.launcher.nojvm=true",
@@ -36,9 +36,10 @@
         "lwjgl-opengl-3.3.2-natives-windows-arm64.jar": "f8ab8ceac5a5b3e53f59ef4c717c3d4434cb7fa33969f240489d539f572c33b0",
         "guava-30.1.1-jre.jar": "44ce229ce26d880bf3afc362bbfcec34d7e6903d195bbb1db9f3b6e0d9834f06",
         "lwjgl-3.3.2.jar": "f8016606e74f3cafd63eae07b1331f903f999c9f40726c838399a144c3809217",
-        "http-api-1.0.20-EXPERIMENTAL.jar": "208bde21b015ade1f85b2432cd32088655aec8ae2c8b2cbbcfea7935ba30b693",
+        "http-api-1.0.20-EXPERIMENTAL.jar": "3a8759dc636c6c6f5ff7382d076fa1370bb74986aa4518acd4c478ca4a359333",
         "commons-lang3-3.11.jar": "4ee380259c068d1dbe9e84ab52186f2acd65de067ec09beff731fca1697fdb16",
         "runelite-api-1.0.20-EXPERIMENTAL.jar": "cac2ccfe6f23440308c49451ff63b95890e331dccf67954dee1519faf484ca68",
+        "flatlaf-extras-3.2.5-rl4.jar": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f",
         "lwjgl-3.3.2-natives-windows-x86.jar": "21e6f5c1c68a171398daf7785ffb2797da89242f90d19e24236563f7c0b1f7e0",
         "engine.io-client-1.0.0.jar": "191a5c2d777c22d258d414f94ff96a6620a93a38beec29a63c2c172794c87f0f",
         "rlawt-1.4.jar": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36",
@@ -61,11 +62,9 @@
         "checker-qual-3.8.0.jar": "c88c2e6a5fdaeb9f26fcf879264042de8a9ee9d376e2477838feaabcfa44dda6",
         "lwjgl-opengl-3.3.2-natives-macos-arm64.jar": "3120ecbcccf31f36064f260fa0127b4a359097a294ac5b3e7675d1867168f2e6",
         "commons-codec-1.10.jar": "4241dfa94e711d435f29a4604a3e2de5c4aa3c165e23bd066be6fc1fc4309569",
-        "flatlaf-3.2.5-rl2.jar": "5a08040e3e5c94fa67b9c1bbefcb64928a356f5d9b500911a1442d726d252a60",
         "pf4j-3.6.0.jar": "d0a653658b736f1916550a4e026a0ec24ccbde2a9b613a341588c4d7544643f4",
-        "runelite-client-1.0.20-EXPERIMENTAL.jar": "89227c3b0670d7d46f1a225a53938e3017f061ae063ca2ac9454a4bd0a9d9bd9",
+        "runelite-client-1.0.20-EXPERIMENTAL.jar": "998f58fbbf3cdd49907ae6821ba11d75161b874ca8944aa3ef15d4df0b876ed8",
         "listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar": "b372a037d4230aa57fbeffdef30fd6123f9c0c2db85d0aced00c91b974f33f99",
-        "flatlaf-extras-3.2.5-rl2.jar": "cb003b0f7975f4983a424b78915a51e3b3f548db238740c083296155b1774355",
         "commons-csv-1.9.0.jar": "c418d6aab4db4f1f70983d355de8d7c1e755c754820a92294da2e5f5081022cc",
         "autocomplete-3.1.1.jar": "c28575ea4256ce6fce57e820fd467b851c2bd4d816c8c51c24699ef832f91f7d",
         "okhttp-4.9.1.jar": "6afdd8f35f4eb60df965c290fa3acf29443fa986545113d0729b8461f6571f8f",
@@ -83,6 +82,7 @@
         "json-20090211.jar": "055be110a570f9cda3eba8d70a006ff46c77a048bc67868524879211c48b330a",
         "jocl-1.0.jar": "126bde4a6be269579a84a67dfc7707fd2916e0eef11b74c4de7cc61a36d2420e",
         "annotations-22.0.0.jar": "9f45f5d5184d50a777742389a7a6e6a5b0bf90b316919774d8336f94776c31b2",
+        "flatlaf-3.2.5-rl4.jar": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c",
         "lwjgl-opengl-3.3.2.jar": "0ebaaf92d306c946ce9d3db25496b9068b7aab782b15966be2544b6a24838038",
         "pf4j-update-2.3.0.jar": "79c9d6240cda82c3d31ee7a5722b635a3d37ad58c124a4db0ddea40145c30f45",
         "lwjgl-3.3.2-natives-linux.jar": "89f53089a5f8a983db25140a1c94c72fe2a8f56feb6ddb597f55b8329ce5b400",
@@ -181,9 +181,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/http-api-1.0.20-EXPERIMENTAL.jar",
-            "size": 95240,
+            "size": 95241,
             "name": "http-api-1.0.20-EXPERIMENTAL.jar",
-            "hash": "208bde21b015ade1f85b2432cd32088655aec8ae2c8b2cbbcfea7935ba30b693"
+            "hash": "3a8759dc636c6c6f5ff7382d076fa1370bb74986aa4518acd4c478ca4a359333"
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-jshell-1.0.20-EXPERIMENTAL.jar",
@@ -288,16 +288,16 @@
             "hash": "1efad07ade0ca6231c9870718f318950cce2e1c8da8b91e317067b616ce14a36"
         },
         {
-            "path": "https://repo.runelite.net/net/runelite/flatlaf-extras/3.2.5-rl2/flatlaf-extras-3.2.5-rl2.jar",
-            "size": 114737,
-            "name": "flatlaf-extras-3.2.5-rl2.jar",
-            "hash": "cb003b0f7975f4983a424b78915a51e3b3f548db238740c083296155b1774355"
+            "path": "https://repo.runelite.net/net/runelite/flatlaf-extras/3.2.5-rl4/flatlaf-extras-3.2.5-rl4.jar",
+            "size": 114738,
+            "name": "flatlaf-extras-3.2.5-rl4.jar",
+            "hash": "8ed1c0ecc09bdaf7224e3750bf3fa29266295f902d3ceeaa1380b26c888b761f"
         },
         {
-            "path": "https://repo.runelite.net/net/runelite/flatlaf/3.2.5-rl2/flatlaf-3.2.5-rl2.jar",
-            "size": 792100,
-            "name": "flatlaf-3.2.5-rl2.jar",
-            "hash": "5a08040e3e5c94fa67b9c1bbefcb64928a356f5d9b500911a1442d726d252a60"
+            "path": "https://repo.runelite.net/net/runelite/flatlaf/3.2.5-rl4/flatlaf-3.2.5-rl4.jar",
+            "size": 792432,
+            "name": "flatlaf-3.2.5-rl4.jar",
+            "hash": "c518fa0427c7f6029b115541c0dbcf633fc89a65467f8472c52bb71fe18b559c"
         },
         {
             "path": "https://repo.maven.apache.org/maven2/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar",
@@ -613,9 +613,9 @@
         },
         {
             "path": "https://raw.githubusercontent.com/jbx5/devious-hosting/master/experimental/runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "size": 12001418,
+            "size": 12001390,
             "name": "runelite-client-1.0.20-EXPERIMENTAL.jar",
-            "hash": "89227c3b0670d7d46f1a225a53938e3017f061ae063ca2ac9454a4bd0a9d9bd9"
+            "hash": "998f58fbbf3cdd49907ae6821ba11d75161b874ca8944aa3ef15d4df0b876ed8"
         }
     ]
 }
